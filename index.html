@@ -169,6 +169,7 @@
     /* ─── HERO ─── */
     #home {
       min-height: 100vh;
+      min-height: 100svh;
       position: relative;
       display: flex;
       align-items: center;
@@ -273,8 +274,9 @@
       padding: 0.65rem 0;
     }
     .marquee-track {
-      display: inline-flex;
-      animation: marquee 28s linear infinite;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     .marquee-item {
       display: inline-flex; align-items: center; gap: 1.2rem;
@@ -284,10 +286,6 @@
       color: rgba(22,19,15,0.75);
     }
     .msep { width: 3px; height: 3px; border-radius: 50%; background: rgba(22,19,15,0.35); }
-    @keyframes marquee {
-      from { transform: translateX(0); }
-      to   { transform: translateX(-50%); }
-    }
 
     /* ─── SHARED SECTION STYLES ─── */
     .sec { padding: 8rem 4rem; }
@@ -618,6 +616,26 @@
       .form-row { grid-template-columns: 1fr; }
       .ep-body { padding: 2rem; }
       .about-text-col { padding: 3.5rem 1.5rem; }
+
+      /* Marquee: tidy centered band instead of a ragged block */
+      .marquee { padding: 1rem 1.25rem; }
+      .marquee-track { gap: 0.55rem 0; row-gap: 0.55rem; }
+      .marquee-item {
+        padding: 0 0.7rem; gap: 0.7rem;
+        font-size: 0.6rem; letter-spacing: 0.14em;
+      }
+      .marquee-item .msep { display: none; }
+
+      /* Stats: 3 cramped columns -> clean single column */
+      .stats { grid-template-columns: 1fr; margin-top: 2.5rem; }
+      .stat { padding: 1.6rem 1.5rem; }
+
+      /* Hero: tighter top/side padding on small screens */
+      .hero-content { padding: 7rem 1.5rem 3.5rem; }
+      .ep-featured, .ep-grid { gap: 1.25rem; }
+    }
+    @media (max-width: 460px) {
+      .marquee-item { font-size: 0.56rem; padding: 0 0.5rem; }
     }
 
     /* ═══ POLISH LAYER ═══ */
@@ -708,6 +726,70 @@
       .quote-text .w { opacity: 1 !important; transform: none !important; }
       .btn::before { display: none; }
     }
+
+    /* ─── THANK YOU ─── */
+    #thanks {
+      position: relative;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(201,152,45,0.10) 0%, transparent 60%),
+        var(--bg2);
+      border-top: 1px solid var(--border);
+      overflow: hidden;
+    }
+    #thanks::before {
+      content: "";
+      position: absolute; top: -60px; left: 50%; transform: translateX(-50%);
+      width: 1px; height: 120px;
+      background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+      opacity: 0.5;
+    }
+    .thanks-head { text-align: center; max-width: 640px; margin: 0 auto 4rem; }
+    .thanks-mark {
+      font-family: Georgia, 'Times New Roman', serif; font-style: italic;
+      font-size: 3.2rem; color: var(--gold); line-height: 1; margin-bottom: 1.2rem;
+      filter: drop-shadow(0 2px 24px var(--gold-glow));
+    }
+    .thanks-intro {
+      font-size: clamp(0.95rem, 1.3vw, 1.08rem); font-weight: 300;
+      color: rgba(242,237,229,0.72); line-height: 1.85; margin-top: 1.4rem;
+    }
+    .thanks-intro em { font-style: italic; color: var(--gold-lt); }
+    .thanks-grid {
+      column-count: 4; column-gap: 2.5rem;
+      max-width: 1040px; margin: 0 auto;
+      border-top: 1px solid var(--border); padding-top: 3rem;
+    }
+    .thank {
+      break-inside: avoid; -webkit-column-break-inside: avoid;
+      display: flex; align-items: baseline; gap: 0.6rem;
+      padding: 0.5rem 0; line-height: 1.35;
+    }
+    .thank-dot {
+      flex-shrink: 0; width: 5px; height: 5px; border-radius: 50%;
+      background: var(--gold); opacity: 0.5; transform: translateY(-2px);
+      transition: opacity 0.25s, box-shadow 0.25s;
+    }
+    .thank:hover .thank-dot { opacity: 1; box-shadow: 0 0 8px var(--gold-glow); }
+    .thank-name { font-size: 0.92rem; font-weight: 400; color: var(--cream); }
+    .thank-note { display: block; font-size: 0.72rem; font-weight: 300; color: var(--dim); font-style: italic; }
+    .thanks-foot {
+      text-align: center; margin-top: 4rem; padding-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem; letter-spacing: 0.04em; color: var(--dim);
+    }
+    .thanks-foot strong { color: var(--gold-lt); font-weight: 500; }
+    .thanks-count {
+      display: inline-flex; align-items: baseline; gap: 0.5rem;
+      font-family: Georgia, serif; font-style: italic;
+    }
+    .thanks-count b { font-size: 1.6rem; color: var(--gold); font-weight: 400; }
+    @media (max-width: 980px) { .thanks-grid { column-count: 3; } }
+    @media (max-width: 680px) {
+      .thanks-grid { column-count: 2; column-gap: 1.5rem; }
+      .thanks-mark { font-size: 2.6rem; }
+      .thanks-head { margin-bottom: 3rem; }
+    }
+    @media (max-width: 420px) { .thanks-grid { column-count: 1; } }
   </style>
 </head>
 <body>
@@ -723,6 +805,7 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#episodes">Episodes</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#thanks">Thanks</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -756,12 +839,6 @@
   <!-- MARQUEE -->
   <div class="marquee">
     <div class="marquee-track">
-      <span class="marquee-item">Glad You're Here <span class="msep"></span></span>
-      <span class="marquee-item">Real Conversations <span class="msep"></span></span>
-      <span class="marquee-item">No Filter <span class="msep"></span></span>
-      <span class="marquee-item">New Episodes Weekly <span class="msep"></span></span>
-      <span class="marquee-item">Season One <span class="msep"></span></span>
-      <span class="marquee-item">Pull Up A Chair <span class="msep"></span></span>
       <span class="marquee-item">Glad You're Here <span class="msep"></span></span>
       <span class="marquee-item">Real Conversations <span class="msep"></span></span>
       <span class="marquee-item">No Filter <span class="msep"></span></span>
@@ -802,10 +879,6 @@
             Spotify
           </a>
           <a href="https://gyhpod.com" class="plat">
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1zm-1 6v10l8-5-8-5z"/></svg>
-            Apple
-          </a>
-          <a href="https://gyhpod.com" class="plat">
             <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
             YouTube
           </a>
@@ -831,7 +904,7 @@
     </div>
     <div class="stats reveal d2">
       <div class="stat"><div class="stat-num" data-count="1" data-suffix="">0</div><div class="stat-lbl">Season Live</div></div>
-      <div class="stat"><div class="stat-num" data-count="3" data-suffix="">0</div><div class="stat-lbl">Platforms</div></div>
+      <div class="stat"><div class="stat-num" data-count="2" data-suffix="">0</div><div class="stat-lbl">Platforms</div></div>
       <div class="stat"><div class="stat-num" data-count="100" data-suffix="%">0</div><div class="stat-lbl">Unscripted</div></div>
     </div>
   </section>
@@ -870,10 +943,6 @@
         <a href="https://gyhpod.com" class="btn btn-ghost">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
           Spotify
-        </a>
-        <a href="https://gyhpod.com" class="btn btn-ghost">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1zm-1 6v10l8-5-8-5z"/></svg>
-          Apple Podcasts
         </a>
         <a href="https://gyhpod.com" class="btn btn-ghost">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
@@ -938,6 +1007,88 @@
           Thanks — we'll be in touch soon. ☕
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- THANK YOU -->
+  <section id="thanks" class="sec">
+    <div class="thanks-head">
+      <div class="thanks-mark reveal">Thank You.</div>
+      <p class="sec-label reveal" style="justify-content:center;">With Gratitude</p>
+      <p class="thanks-intro reveal d1">Every great conversation starts because someone decided to <em>pull up a chair</em>. To everyone who listened, shared a story, sent a name our way, or simply said <em>"glad you're here"</em> — this one's for you. We couldn't do it without you.</p>
+    </div>
+
+    <div class="thanks-grid reveal d2">
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Mason Wilson</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Colin Murphy</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Brenden Chalupniczak</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Jordan Stark</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Landen Slater</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Margot Cooper</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Aubrey Burns</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Martin Howard</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Jacob Stone</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Issac Paga</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Johnny Whitcomb</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Keegan Piehl</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Joe Diesenroth</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Katie Gershey</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Kora Hunt</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Burke Ramsey</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Marty &amp; Julie McCrone</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Brendan Haddock</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Molly Lesperance</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Jaymi Anderson</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Lelane Glen</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Reed Abbott</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Michael &amp; Janet Gayne</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Kenzie &amp; Lulu</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Julie &amp; Rosie<span class="thank-note">the corgi · from NY</span></span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Ben &amp; Faith Wolf</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Libby Austin</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">JT Dallas</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Therese</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Susan Holmes</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Thomas Bowman</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Jim &amp; Sue McLain</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Zoie Weber</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Dylan Jay</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Matt Davis</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Greg Fuller &amp; Mary McWatters</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Lucky</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Riley Goldsborough</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Shawn</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Rachel Halbo</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Remington Barnadyn</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Sam Fry</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Courtney Grubaugh</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Laurentiu Toader</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Susan McNulty</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Jayson LaGrou</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Paul Hennicks &amp; Annie</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Tory Ruthig</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Drew Smith</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Mikayla Whitcomb</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Saint Shane &amp; son Elijah<span class="thank-note">GR</span></span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Solomon Mowry</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Peter Walstrom</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Katie Rasch</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Tory<span class="thank-note">from Detroit</span></span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Amanely Duran</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Githil<span class="thank-note">Saudi Arabia</span></span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Sandlyn Han</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Chris Black</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Maddie Pacola</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Theo Whitcomb</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Ava Zyble</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Arden Kohler</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Chris Alshab</span></div>
+      <div class="thank"><span class="thank-dot"></span><span class="thank-name">Ambria Kruger</span></div>
+    </div>
+
+    <div class="thanks-foot reveal">
+      <span class="thanks-count"><b>65</b> friends, guests &amp; listeners</span><br>
+      and counting. <strong>Glad you're here.</strong>
     </div>
   </section>
 
