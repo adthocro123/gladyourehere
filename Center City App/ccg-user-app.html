@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCG Member App</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
+
+:root {
+  --black: #0e0e0f;
+  --surface: #161618;
+  --surface2: #1f1f22;
+  --surface3: #2a2a2e;
+  --line: #2e2e32;
+  --line2: #3a3a3f;
+  --red: #c8102e;
+  --red2: #e8112f;
+  --gold: #e8a020;
+  --white: #f5f5f7;
+  --muted: #6e6e76;
+  --muted2: #a0a0a8;
+  --green: #30c760;
+}
+
+body {
+  background: #111113;
+  font-family: 'Inter', sans-serif;
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px 60px;
+  gap: 40px;
+}
+
+/* ─── PAGE HEADER ─── */
+.page-header {
+  text-align: center;
+}
+.page-header h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.page-header p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: var(--white);
+}
+.page-header p span { color: var(--red2); }
+
+/* ─── SCREEN TABS ─── */
+.tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tab {
+  padding: 7px 15px;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--line2);
+  background: var(--surface);
+  color: var(--muted2);
+  transition: all .15s;
+}
+.tab.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+/* ─── PHONE ─── */
+.phone {
+  width: 393px;
+  height: 852px;
+  background: var(--black);
+  border-radius: 50px;
+  border: 1.5px solid #333;
+  box-shadow:
+    0 0 0 5px #0c0c0c,
+    0 40px 100px rgba(0,0,0,.8),
+    inset 0 1px 0 rgba(255,255,255,.05);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dynamic Island */
+.island {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 34px;
+  background: #000;
+  border-radius: 20px;
+  z-index: 100;
+}
+
+/* Status bar */
+.status {
+  height: 54px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 28px 8px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 10;
+}
+.status-time {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -.3px;
+}
+.status-icons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Content area */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  position: relative;
+}
+.content::-webkit-scrollbar { display: none; }
+
+/* Screen */
+.screen { display: none; }
+.screen.active { display: block; }
+
+/* ─── BOTTOM NAV ─── */
+.nav {
+  height: 82px;
+  background: rgba(18,18,20,0.95);
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 12px 8px 0;
+  flex-shrink: 0;
+  backdrop-filter: blur(16px);
+}
+.nav-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--muted);
+  transition: color .15s;
+  padding: 4px 0;
+}
+.nav-btn.active { color: var(--red2); }
+.nav-btn svg { width: 24px; height: 24px; }
+.nav-btn span {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: .2px;
+}
+
+/* ─── HOME SCREEN ─── */
+.hero-block {
+  background: linear-gradient(160deg, #1a0808 0%, #200a0a 40%, #160606 100%);
+  padding: 16px 20px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-block::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 220px; height: 220px;
+  background: radial-gradient(circle, rgba(200,16,46,.2) 0%, transparent 65%);
+  pointer-events: none;
+}
+.hero-block::after {
+  content: 'CCG';
+  position: absolute;
+  bottom: -16px; right: 12px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 88px;
+  font-weight: 900;
+  color: rgba(255,255,255,.03);
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+.greeting {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--red2);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+  font-family: 'Inter', sans-serif;
+}
+.hero-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 14px;
+}
+.member-strip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.07);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.member-strip-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  flex-shrink: 0;
+  box-shadow: 0 0 6px var(--green);
+}
+.member-strip-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted2);
+  flex: 1;
+}
+.member-strip-text strong { color: var(--white); font-weight: 700; }
+.member-strip-badge {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* Section wrapper */
+.s { padding: 0 20px; margin-top: 20px; }
+.s-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+/* Quick tiles */
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.tile {
+  border-radius: 14px;
+  padding: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform .15s, opacity .15s;
+}
+.tile:active { transform: scale(.97); opacity: .85; }
+.tile-main {
+  background: var(--red);
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+}
+.tile-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.6);
+  margin-bottom: 3px;
+}
+.tile-value {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+.tile-main .tile-value { font-size: 28px; }
+.tile-dark { background: var(--surface2); border: 1px solid var(--line); }
+.tile-icon {
+  width: 40px; height: 40px;
+  border-radius: 10px;
+  background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center;
+}
+.tile-icon svg { width: 20px; height: 20px; stroke: #fff; fill: none; stroke-width: 1.8; }
+.tile-arrow {
+  color: rgba(255,255,255,.5);
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Crowd meter */
+.crowd-row {
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+}
+.crowd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.crowd-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Inter', sans-serif;
+}
+.crowd-count {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+}
+.crowd-status {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.crowd-status::before { content: '●'; font-size: 8px; }
+.crowd-bar-track {
+  height: 6px;
+  background: var(--surface3);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.crowd-bar-fill {
+  height: 100%;
+  width: 42%;
+  background: var(--green);
+  border-radius: 3px;
+  transition: width .5s ease;
+}
+.hourly {
+  display: flex;
+  gap: 3px;
+  align-items: flex-end;
+  height: 40px;
+}
+.h-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  height: 100%;
+  justify-content: flex-end;
+}
+.h-bar {
+  width: 100%;
+  border-radius: 2px 2px 0 0;
+  background: var(--surface3);
+  transition: height .3s;
+}
+.h-bar.now { background: var(--red); opacity: .7; }
+.h-lbl { font-size: 8px; color: var(--muted); font-family: 'Inter', sans-serif; }
+
+/* Hours block */
+.hours-block {
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  gap: 20px;
+}
+.hours-item { flex: 1; }
+.hours-day {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin-bottom: 4px;
+  font-family: 'Inter', sans-serif;
+}
+.hours-time {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1;
+}
+.hours-divider { width: 1px; background: var(--line); }
+
+/* ─── CHECKIN SCREEN ─── */
+.ci-hero {
+  padding: 24px 20px 28px;
+  text-align: center;
+}
+.ci-page-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.ci-date {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--muted2);
+  margin-bottom: 28px;
+}
+
+.checkin-ring {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: var(--red);
+  margin: 0 auto 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow:
+    0 0 0 8px rgba(200,16,46,.12),
+    0 0 0 16px rgba(200,16,46,.05),
+    0 16px 40px rgba(200,16,46,.35);
+}
+.checkin-ring:active {
+  transform: scale(.94);
+  box-shadow: 0 0 0 4px rgba(200,16,46,.1), 0 8px 24px rgba(200,16,46,.25);
+}
+.checkin-ring svg { width: 44px; height: 44px; stroke: #fff; fill: none; stroke-width: 1.5; margin-bottom: 6px; }
+.checkin-ring-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.qr-card {
+  margin: 0 20px 20px;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.qr-graphic {
+  width: 72px;
+  height: 72px;
+  background: #fff;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.qr-info {}
+.qr-label { font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+.qr-id { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 800; letter-spacing: 1px; color: var(--white); }
+.qr-sub { font-size: 12px; color: var(--muted2); margin-top: 3px; }
+
+.visit-list { margin: 0 20px 20px; }
+.visit-list-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.visit-row {
+  display: flex;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  gap: 14px;
+}
+.visit-row:last-child { border-bottom: none; }
+.visit-date-block {
+  width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.visit-date-block .vd { font-family: 'Barlow Condensed', sans-serif; font-size: 20px; font-weight: 800; line-height: 1; }
+.visit-date-block .vm { font-size: 10px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+.visit-line { width: 1px; height: 28px; background: var(--line); flex-shrink: 0; }
+.visit-info { flex: 1; }
+.visit-time { font-size: 13px; font-weight: 700; color: var(--white); }
+.visit-meta { font-size: 12px; color: var(--muted2); margin-top: 2px; }
+.visit-dur {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* ─── MEMBERSHIP SCREEN ─── */
+.mem-card-visual {
+  margin: 0;
+  height: 200px;
+  background: linear-gradient(135deg, #0f0f10 0%, #1a0505 50%, #200a0a 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.mem-card-visual::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(circle at 80% 30%, rgba(200,16,46,.22) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(232,160,32,.08) 0%, transparent 40%);
+}
+.mem-logo-bg {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+  color: rgba(255,255,255,.025);
+  letter-spacing: -5px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.mem-card-top {
+  position: absolute;
+  top: 18px; left: 20px; right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.mem-card-top-brand {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.mem-card-top-brand span { color: var(--red2); }
+.mem-expiry-label { font-size: 9px; color: rgba(255,255,255,.4); letter-spacing: .8px; text-transform: uppercase; font-weight: 600; }
+.mem-expiry-val { font-size: 15px; font-weight: 700; text-align: right; }
+.mem-card-name { font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 800; position: relative; z-index: 1; }
+.mem-card-plan { font-size: 12px; color: rgba(255,255,255,.5); font-weight: 600; letter-spacing: .5px; position: relative; z-index: 1; margin-top: 2px; }
+
+.mem-progress-strip {
+  background: var(--surface2);
+  padding: 14px 20px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.mem-prog-bar { flex: 1; height: 4px; background: var(--surface3); border-radius: 2px; overflow: hidden; }
+.mem-prog-fill { height: 100%; width: 46%; background: var(--red2); border-radius: 2px; }
+.mem-prog-label { font-size: 12px; color: var(--muted2); white-space: nowrap; font-weight: 500; }
+
+.plan-section { padding: 20px 20px 0; }
+.plan-section-head {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+
+.plan-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  gap: 14px;
+  cursor: pointer;
+}
+.plan-item:last-child { border-bottom: none; }
+.plan-bullet {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--line2);
+  flex-shrink: 0;
+  transition: background .15s;
+}
+.plan-item:hover .plan-bullet { background: var(--red); }
+.plan-item-text { flex: 1; }
+.plan-item-name { font-size: 14px; font-weight: 600; color: var(--white); }
+.plan-item-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.plan-item-price {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--white);
+}
+.plan-item-price sup { font-size: 13px; font-weight: 600; color: var(--muted2); vertical-align: super; font-family: 'Inter', sans-serif; }
+.plan-highlight { background: rgba(200,16,46,.06); border-radius: 10px; padding: 0 12px; margin: 0 -12px; }
+.plan-highlight .plan-item-price { color: var(--red2); }
+
+/* locker rates inline */
+.locker-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.locker-rate {
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.locker-rate-period { font-size: 11px; color: var(--muted); font-weight: 600; }
+.locker-rate-price { font-family: 'Barlow Condensed', sans-serif; font-size: 24px; font-weight: 800; }
+
+/* ─── WORKOUT SCREEN ─── */
+.workout-header {
+  padding: 20px 20px 14px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.workout-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+}
+.workout-subtitle { font-size: 13px; color: var(--muted2); margin-top: 4px; font-weight: 500; }
+.log-btn {
+  background: var(--red);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .5px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pr-strip {
+  margin: 0 20px 16px;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.pr-strip-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+}
+.pr-row { display: flex; gap: 0; }
+.pr-item { flex: 1; text-align: center; position: relative; }
+.pr-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0; top: 10%; height: 80%;
+  width: 1px;
+  background: var(--line);
+}
+.pr-lift { font-size: 10px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 4px; }
+.pr-val { font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 900; line-height: 1; }
+.pr-unit { font-size: 11px; color: var(--muted); font-weight: 600; }
+
+.session-list { margin: 0 20px; }
+.session-head {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--muted);
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+}
+.session-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  gap: 14px;
+}
+.session-item:last-child { border-bottom: none; }
+.session-icon {
+  width: 42px; height: 42px;
+  border-radius: 10px;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.session-icon svg { width: 20px; height: 20px; stroke: var(--muted2); fill: none; stroke-width: 1.8; }
+.session-info { flex: 1; }
+.session-name { font-size: 14px; font-weight: 600; }
+.session-meta { font-size: 12px; color: var(--muted2); margin-top: 2px; }
+.session-dur {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.equip-block { margin: 0 20px 20px; }
+.equip-wrap { display: flex; flex-wrap: wrap; gap: 7px; }
+.equip-chip {
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 11px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted2);
+}
+
+/* ─── PROFILE SCREEN ─── */
+.profile-top {
+  padding: 24px 20px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.avatar-ring {
+  width: 68px; height: 68px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--red), #7b1fa2);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px var(--black), 0 0 0 4px var(--red);
+}
+.profile-name { font-family: 'Barlow Condensed', sans-serif; font-size: 28px; font-weight: 900; line-height: 1; }
+.profile-id { font-size: 12px; color: var(--muted); margin-top: 4px; font-family: 'Inter', sans-serif; }
+.profile-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(48,199,96,.1);
+  border: 1px solid rgba(48,199,96,.2);
+  border-radius: 20px;
+  padding: 3px 9px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--green);
+  margin-top: 6px;
+}
+
+.profile-list { margin: 0 20px; }
+.profile-group { margin-bottom: 20px; }
+.profile-group-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--muted);
+  margin-bottom: 8px;
+  font-family: 'Inter', sans-serif;
+}
+.profile-row {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+}
+.profile-row:last-child { border-bottom: none; }
+.profile-row-icon {
+  width: 34px; height: 34px;
+  border-radius: 8px;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+.profile-row-icon svg { width: 16px; height: 16px; stroke: var(--muted2); fill: none; stroke-width: 1.8; }
+.profile-row-label { flex: 1; font-size: 14px; font-weight: 500; }
+.profile-row-val { font-size: 13px; color: var(--muted2); margin-right: 8px; }
+.profile-row-arrow { color: var(--muted); }
+
+.signout-btn {
+  margin: 0 20px 20px;
+  width: calc(100% - 40px);
+  padding: 13px;
+  background: none;
+  border: 1px solid var(--line2);
+  border-radius: 10px;
+  color: var(--muted2);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Center City Gym — Petoskey, MI</h1>
+  <p>Member <span>App</span></p>
+</div>
+
+<!-- Tabs -->
+<div class="tabs">
+  <div class="tab active" id="tab-home"       onclick="go('home')">Home</div>
+  <div class="tab"        id="tab-checkin"    onclick="go('checkin')">Check-In</div>
+  <div class="tab"        id="tab-membership" onclick="go('membership')">Membership</div>
+  <div class="tab"        id="tab-workout"    onclick="go('workout')">Workout</div>
+  <div class="tab"        id="tab-profile"    onclick="go('profile')">Profile</div>
+</div>
+
+<!-- Phone -->
+<div class="phone">
+  <div class="island"></div>
+
+  <!-- Status -->
+  <div class="status">
+    <div class="status-time">9:41</div>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="3" width="3" height="9" rx="1" fill="white"/><rect x="4.5" y="2" width="3" height="10" rx="1" fill="white"/><rect x="9" y="0" width="3" height="12" rx="1" fill="white"/><rect x="13.5" y="0" width="3" height="12" rx="1" fill="white" opacity=".3"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="white"><path d="M8 2.4C5.4 2.4 3.1 3.5 1.4 5.3L0 3.9C2.1 1.5 5 0 8 0s5.9 1.5 8 3.9L14.6 5.3C12.9 3.5 10.6 2.4 8 2.4z" opacity=".4"/><path d="M8 5.6c-1.7 0-3.2.7-4.3 1.8L2.3 6C3.8 4.5 5.8 3.6 8 3.6s4.2.9 5.7 2.4L12.3 7.4C11.2 6.3 9.7 5.6 8 5.6z" opacity=".7"/><path d="M8 8.8c-.8 0-1.6.3-2.1.9L4.5 8.3C5.4 7.3 6.6 6.8 8 6.8s2.6.5 3.5 1.5L10.1 9.7c-.5-.6-1.3-.9-2.1-.9z"/><circle cx="8" cy="12" r="1.5"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12"><rect x="0" y="1" width="22" height="10" rx="2.5" stroke="white" stroke-opacity=".35" stroke-width="1" fill="none"/><rect x="1" y="2" width="17" height="8" rx="1.5" fill="white"/><rect x="23" y="3.5" width="2" height="5" rx="1" fill="white" fill-opacity=".4"/></svg>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- ══ HOME ══ -->
+    <div class="screen active" id="screen-home">
+      <div class="hero-block">
+        <div class="greeting">Good Morning</div>
+        <div class="hero-name">Jason Davis</div>
+        <div class="member-strip">
+          <div class="member-strip-dot"></div>
+          <div class="member-strip-text"><strong>Annual Member</strong> — 47 visits this year</div>
+          <div class="member-strip-badge">Active</div>
+        </div>
+      </div>
+
+      <div class="s">
+        <div class="s-title">Quick Access</div>
+        <div class="tiles">
+          <div class="tile tile-main" onclick="go('checkin')">
+            <div>
+              <div class="tile-label">Tap to</div>
+              <div class="tile-value">Check In</div>
+            </div>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="tile tile-dark" onclick="go('workout')">
+            <div class="tile-label">My Stats</div>
+            <div class="tile-value">14 visits</div>
+            <div style="font-size:11px;color:var(--muted);margin-top:4px;font-weight:500;">this month</div>
+          </div>
+          <div class="tile tile-dark">
+            <div class="tile-label">Locker</div>
+            <div class="tile-value">A-14</div>
+            <div style="font-size:11px;color:var(--muted);margin-top:4px;font-weight:500;">thru Dec 2026</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="s">
+        <div class="s-title">Gym Right Now</div>
+        <div class="crowd-row">
+          <div class="crowd-header">
+            <div>
+              <div class="crowd-label">Members Inside</div>
+              <div class="crowd-count">24</div>
+            </div>
+            <div class="crowd-status">Not busy</div>
+          </div>
+          <div class="crowd-bar-track"><div class="crowd-bar-fill"></div></div>
+          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:12px;font-weight:500;">
+            <span>Empty</span><span>Packed</span>
+          </div>
+          <div class="hourly">
+            <div class="h-col"><div class="h-bar" style="height:20%"></div><div class="h-lbl">5a</div></div>
+            <div class="h-col"><div class="h-bar" style="height:35%"></div><div class="h-lbl">7a</div></div>
+            <div class="h-col"><div class="h-bar now" style="height:42%"></div><div class="h-lbl">9a</div></div>
+            <div class="h-col"><div class="h-bar" style="height:55%"></div><div class="h-lbl">11a</div></div>
+            <div class="h-col"><div class="h-bar" style="height:48%"></div><div class="h-lbl">1p</div></div>
+            <div class="h-col"><div class="h-bar" style="height:88%"></div><div class="h-lbl">5p</div></div>
+            <div class="h-col"><div class="h-bar" style="height:72%"></div><div class="h-lbl">7p</div></div>
+            <div class="h-col"><div class="h-bar" style="height:22%"></div><div class="h-lbl">9p</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="s">
+        <div class="s-title">Hours</div>
+        <div class="hours-block">
+          <div class="hours-item">
+            <div class="hours-day">Mon – Fri</div>
+            <div class="hours-time">5:00 AM<br>– 9:00 PM</div>
+          </div>
+          <div class="hours-divider"></div>
+          <div class="hours-item">
+            <div class="hours-day">Sat – Sun</div>
+            <div class="hours-time">7:00 AM<br>– 6:00 PM</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="s" style="margin-bottom:20px;">
+        <div style="background:var(--surface2);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;align-items:center;gap:14px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--muted2)" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.76 19.79 19.79 0 01.01 1.17 2 2 0 012 .02h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <div>
+            <div style="font-size:11px;color:var(--muted);font-weight:600;letter-spacing:.5px;">Call the gym</div>
+            <div style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:800;">(231) 487-1205</div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /home -->
+
+    <!-- ══ CHECK-IN ══ -->
+    <div class="screen" id="screen-checkin">
+      <div class="ci-hero">
+        <div class="ci-page-title">Check In</div>
+        <div class="ci-date">Tuesday, Jun 16 · 418 E Mitchell St</div>
+        <div class="checkin-ring">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div class="checkin-ring-label">Check In</div>
+        </div>
+        <div style="font-size:13px;color:var(--muted);font-weight:500;">or show QR at front desk</div>
+      </div>
+
+      <div class="qr-card">
+        <div class="qr-graphic">
+          <svg viewBox="0 0 60 60" width="62" height="62">
+            <rect fill="white" width="60" height="60"/>
+            <rect fill="black" x="4" y="4" width="22" height="22" rx="2"/>
+            <rect fill="white" x="7" y="7" width="16" height="16" rx="1"/>
+            <rect fill="black" x="10" y="10" width="10" height="10"/>
+            <rect fill="black" x="34" y="4" width="22" height="22" rx="2"/>
+            <rect fill="white" x="37" y="7" width="16" height="16" rx="1"/>
+            <rect fill="black" x="40" y="10" width="10" height="10"/>
+            <rect fill="black" x="4" y="34" width="22" height="22" rx="2"/>
+            <rect fill="white" x="7" y="37" width="16" height="16" rx="1"/>
+            <rect fill="black" x="10" y="40" width="10" height="10"/>
+            <rect fill="black" x="34" y="34" width="6" height="6"/>
+            <rect fill="black" x="42" y="34" width="6" height="6"/>
+            <rect fill="black" x="50" y="34" width="6" height="6"/>
+            <rect fill="black" x="34" y="42" width="6" height="6"/>
+            <rect fill="black" x="46" y="46" width="10" height="10"/>
+          </svg>
+        </div>
+        <div class="qr-info">
+          <div class="qr-label">Member QR Code</div>
+          <div class="qr-id">CCG-4821-JD</div>
+          <div class="qr-sub">Jason Davis · Annual</div>
+        </div>
+      </div>
+
+      <div class="visit-list">
+        <div class="visit-list-title">Recent Visits</div>
+        <div class="visit-row">
+          <div class="visit-date-block"><div class="vd">16</div><div class="vm">Jun</div></div>
+          <div class="visit-line"></div>
+          <div class="visit-info"><div class="visit-time">6:32 AM</div><div class="visit-meta">72 min · Leg Day</div></div>
+          <div class="visit-dur">72m</div>
+        </div>
+        <div class="visit-row">
+          <div class="visit-date-block"><div class="vd">14</div><div class="vm">Jun</div></div>
+          <div class="visit-line"></div>
+          <div class="visit-info"><div class="visit-time">8:10 AM</div><div class="visit-meta">58 min · Cardio</div></div>
+          <div class="visit-dur">58m</div>
+        </div>
+        <div class="visit-row">
+          <div class="visit-date-block"><div class="vd">13</div><div class="vm">Jun</div></div>
+          <div class="visit-line"></div>
+          <div class="visit-info"><div class="visit-time">5:45 AM</div><div class="visit-meta">90 min · Upper Body</div></div>
+          <div class="visit-dur">90m</div>
+        </div>
+        <div class="visit-row">
+          <div class="visit-date-block"><div class="vd">11</div><div class="vm">Jun</div></div>
+          <div class="visit-line"></div>
+          <div class="visit-info"><div class="visit-time">6:15 AM</div><div class="visit-meta">80 min · Pull Day</div></div>
+          <div class="visit-dur">80m</div>
+        </div>
+      </div>
+    </div><!-- /checkin -->
+
+    <!-- ══ MEMBERSHIP ══ -->
+    <div class="screen" id="screen-membership">
+      <div class="mem-card-visual">
+        <div class="mem-logo-bg">CCG</div>
+        <div class="mem-card-top">
+          <div class="mem-card-top-brand">CC<span>G</span></div>
+          <div>
+            <div class="mem-expiry-label">Expires</div>
+            <div class="mem-expiry-val">Jan 2027</div>
+          </div>
+        </div>
+        <div class="mem-card-name">Jason Davis</div>
+        <div class="mem-card-plan">Annual Individual · #CCG-4821</div>
+      </div>
+      <div class="mem-progress-strip">
+        <div style="font-size:12px;color:var(--muted);font-weight:600;white-space:nowrap;">Jan 2026</div>
+        <div class="mem-prog-bar"><div class="mem-prog-fill"></div></div>
+        <div style="font-size:12px;color:var(--muted);font-weight:600;white-space:nowrap;">Jan 2027</div>
+        <div class="mem-prog-label">46% used</div>
+      </div>
+
+      <div class="plan-section">
+        <div class="plan-section-head">Short-Term / Guest</div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">Day Pass</div><div class="plan-item-sub">Walk in, no commitment</div></div>
+          <div class="plan-item-price"><sup>$</sup>12</div>
+        </div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">One Week</div><div class="plan-item-sub">Visiting Petoskey?</div></div>
+          <div class="plan-item-price"><sup>$</sup>35</div>
+        </div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">10-Visit Punch Card</div><div class="plan-item-sub">$9 per visit</div></div>
+          <div class="plan-item-price"><sup>$</sup>90</div>
+        </div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">20-Visit Punch Card</div><div class="plan-item-sub">$7.50 per visit</div></div>
+          <div class="plan-item-price"><sup>$</sup>150</div>
+        </div>
+      </div>
+
+      <div class="plan-section">
+        <div class="plan-section-head">Monthly</div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">Individual</div><div class="plan-item-sub">Student $45 · Senior 60+ $40</div></div>
+          <div class="plan-item-price"><sup>$</sup>50</div>
+        </div>
+        <div class="plan-item plan-highlight">
+          <div class="plan-bullet" style="background:var(--red);"></div>
+          <div class="plan-item-text"><div class="plan-item-name">Auto-Debit</div><div class="plan-item-sub">Billed monthly — save $5/mo</div></div>
+          <div class="plan-item-price"><sup>$</sup>45</div>
+        </div>
+      </div>
+
+      <div class="plan-section">
+        <div class="plan-section-head">Long-Term</div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">3 Months</div><div class="plan-item-sub">Student $110 · Senior $100</div></div>
+          <div class="plan-item-price"><sup>$</sup>120</div>
+        </div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">6 Months</div><div class="plan-item-sub">Student $190 · Senior $170</div></div>
+          <div class="plan-item-price"><sup>$</sup>210</div>
+        </div>
+        <div class="plan-item">
+          <div class="plan-bullet"></div>
+          <div class="plan-item-text"><div class="plan-item-name">Annual</div><div class="plan-item-sub">Student $360 · Senior $320</div></div>
+          <div class="plan-item-price"><sup>$</sup>400</div>
+        </div>
+      </div>
+
+      <div class="plan-section" style="margin-bottom:20px;">
+        <div class="plan-section-head">Locker Rentals</div>
+        <div class="locker-grid">
+          <div class="locker-rate"><div class="locker-rate-period">1 Month</div><div class="locker-rate-price">$19</div></div>
+          <div class="locker-rate"><div class="locker-rate-period">3 Months</div><div class="locker-rate-price">$39</div></div>
+          <div class="locker-rate"><div class="locker-rate-period">6 Months</div><div class="locker-rate-price">$59</div></div>
+          <div class="locker-rate"><div class="locker-rate-period">1 Year</div><div class="locker-rate-price">$89</div></div>
+        </div>
+      </div>
+    </div><!-- /membership -->
+
+    <!-- ══ WORKOUT ══ -->
+    <div class="screen" id="screen-workout">
+      <div class="workout-header">
+        <div>
+          <div class="workout-title">Workout<br>Log</div>
+          <div class="workout-subtitle">14 sessions this month</div>
+        </div>
+        <button class="log-btn">+ Log</button>
+      </div>
+
+      <div class="pr-strip">
+        <div class="pr-strip-label">Personal Records</div>
+        <div class="pr-row">
+          <div class="pr-item">
+            <div class="pr-lift">Squat</div>
+            <div class="pr-val">315</div>
+            <div class="pr-unit">lbs</div>
+          </div>
+          <div class="pr-item">
+            <div class="pr-lift">Bench</div>
+            <div class="pr-val">225</div>
+            <div class="pr-unit">lbs</div>
+          </div>
+          <div class="pr-item">
+            <div class="pr-lift">Deadlift</div>
+            <div class="pr-val">385</div>
+            <div class="pr-unit">lbs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="session-list" style="margin-bottom:18px;">
+        <div class="session-head">Recent Sessions</div>
+        <div class="session-item">
+          <div class="session-icon">
+            <svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <div class="session-info">
+            <div class="session-name">Leg Day — Powerlifting</div>
+            <div class="session-meta">Jun 16 · Squat cage, leg press</div>
+          </div>
+          <div class="session-dur">72m</div>
+        </div>
+        <div class="session-item">
+          <div class="session-icon">
+            <svg viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="10" ry="4"/><path d="M2 12c0 4.418 4.477 8 10 8s10-3.582 10-8"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+          </div>
+          <div class="session-info">
+            <div class="session-name">Cardio — Rowing + Bike</div>
+            <div class="session-meta">Jun 14 · Concept Rower, Rogue Bike</div>
+          </div>
+          <div class="session-dur">45m</div>
+        </div>
+        <div class="session-item">
+          <div class="session-icon">
+            <svg viewBox="0 0 24 24"><path d="M6 4h4M14 4h4M4 8h16M4 12h16M4 16h16" stroke-linecap="round"/></svg>
+          </div>
+          <div class="session-info">
+            <div class="session-name">Upper Body — Push</div>
+            <div class="session-meta">Jun 13 · Cable tower, dumbbells</div>
+          </div>
+          <div class="session-dur">90m</div>
+        </div>
+        <div class="session-item">
+          <div class="session-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="session-info">
+            <div class="session-name">Pull Day — Back &amp; Biceps</div>
+            <div class="session-meta">Jun 11 · Cable rows, curls</div>
+          </div>
+          <div class="session-dur">80m</div>
+        </div>
+      </div>
+
+      <div class="equip-block">
+        <div class="session-head">Equipment at CCG</div>
+        <div class="equip-wrap">
+          <div class="equip-chip">Powerlifting Cage</div>
+          <div class="equip-chip">Cable Towers ×2</div>
+          <div class="equip-chip">Dumbbells 3–150 lb</div>
+          <div class="equip-chip">Treadmills</div>
+          <div class="equip-chip">Rowing Machines</div>
+          <div class="equip-chip">Ski Erg</div>
+          <div class="equip-chip">Concept Bikes</div>
+          <div class="equip-chip">Rogue Bikes</div>
+          <div class="equip-chip">Circuit System</div>
+          <div class="equip-chip">12,000+ sq ft</div>
+        </div>
+      </div>
+    </div><!-- /workout -->
+
+    <!-- ══ PROFILE ══ -->
+    <div class="screen" id="screen-profile">
+      <div class="profile-top">
+        <div class="avatar-ring">JD</div>
+        <div>
+          <div class="profile-name">Jason Davis</div>
+          <div class="profile-id">Member #CCG-4821 · Since Jan 2024</div>
+          <div class="profile-badge">
+            <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;"></span>
+            Annual · Active
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-list">
+        <div class="profile-group">
+          <div class="profile-group-title">Account</div>
+          <div class="profile-row">
+            <div class="profile-row-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div class="profile-row-label">Email</div>
+            <div class="profile-row-val">jason@email.com</div>
+            <div class="profile-row-arrow">›</div>
+          </div>
+          <div class="profile-row">
+            <div class="profile-row-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.76 19.79 19.79 0 01.01 1.17 2 2 0 012 .02h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <div class="profile-row-label">Phone</div>
+            <div class="profile-row-val">(231) 555-7842</div>
+            <div class="profile-row-arrow">›</div>
+          </div>
+          <div class="profile-row">
+            <div class="profile-row-icon"><svg viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
+            <div class="profile-row-label">Payment</div>
+            <div class="profile-row-val">Visa ···4821</div>
+            <div class="profile-row-arrow">›</div>
+          </div>
+        </div>
+
+        <div class="profile-group">
+          <div class="profile-group-title">Gym</div>
+          <div class="profile-row">
+            <div class="profile-row-icon"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
+            <div class="profile-row-label">Locker</div>
+            <div class="profile-row-val">#A-14</div>
+            <div class="profile-row-arrow">›</div>
+          </div>
+          <div class="profile-row">
+            <div class="profile-row-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+            <div class="profile-row-label">Liability Waiver</div>
+            <div class="profile-row-val">Signed</div>
+            <div class="profile-row-arrow">›</div>
+          </div>
+          <div class="profile-row">
+            <div class="profile-row-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+            <div class="profile-row-label">Contact CCG</div>
+            <div class="profile-row-val"></div>
+            <div class="profile-row-arrow">›</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="signout-btn">Sign Out</button>
+    </div><!-- /profile -->
+
+  </div><!-- /content -->
+
+  <!-- Nav -->
+  <div class="nav">
+    <button class="nav-btn active" id="nav-home" onclick="go('home')">
+      <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Home</span>
+    </button>
+    <button class="nav-btn" id="nav-checkin" onclick="go('checkin')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Check-In</span>
+    </button>
+    <button class="nav-btn" id="nav-membership" onclick="go('membership')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+      <span>Membership</span>
+    </button>
+    <button class="nav-btn" id="nav-workout" onclick="go('workout')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z" fill="currentColor" stroke="none"/></svg>
+      <span>Workout</span>
+    </button>
+    <button class="nav-btn" id="nav-profile" onclick="go('profile')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <span>Profile</span>
+    </button>
+  </div>
+</div><!-- /phone -->
+
+<script>
+function go(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  const nb = document.getElementById('nav-' + name);
+  if (nb) nb.classList.add('active');
+  const tb = document.getElementById('tab-' + name);
+  if (tb) tb.classList.add('active');
+  document.querySelector('.content').scrollTop = 0;
+}
+</script>
+</body>
+</html>

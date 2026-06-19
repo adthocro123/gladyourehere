@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CCG Front Desk QR — Print</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  @page{size:letter portrait;margin:0;}
+  body{
+    font-family:'Inter',sans-serif;
+    background:#fff;
+    width:8.5in;
+    height:11in;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .poster{
+    width:7.5in;
+    height:10in;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    padding:.4in 0;
+    position:relative;
+  }
+  /* top red bar */
+  .top-bar{
+    width:100%;
+    background:#c8102e;
+    border-radius:12px;
+    padding:22px 32px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .logo-block{}
+  .logo{font-family:'Barlow Condensed',sans-serif;font-size:56px;font-weight:900;color:#fff;line-height:1;letter-spacing:1px;}
+  .logo em{color:rgba(255,255,255,.5);font-style:normal;}
+  .gym-name{font-size:13px;color:rgba(255,255,255,.7);font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-top:3px;}
+  .address-block{text-align:right;}
+  .addr{font-size:13px;color:rgba(255,255,255,.8);line-height:1.7;}
+
+  /* headline */
+  .headline{text-align:center;}
+  .hl1{font-family:'Barlow Condensed',sans-serif;font-size:58px;font-weight:900;color:#0e0e0f;line-height:1;letter-spacing:.5px;text-transform:uppercase;}
+  .hl1 em{color:#c8102e;font-style:normal;}
+  .hl2{font-size:17px;color:#666;font-weight:500;margin-top:6px;letter-spacing:.2px;}
+
+  /* qr section */
+  .qr-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+  }
+  .qr-frame{
+    border:3px solid #0e0e0f;
+    border-radius:20px;
+    padding:18px;
+    position:relative;
+  }
+  .qr-frame img{display:block;border-radius:8px;}
+  .qr-corner{
+    position:absolute;
+    width:24px;height:24px;
+    border-color:#c8102e;
+    border-style:solid;
+  }
+  .qr-corner.tl{top:-3px;left:-3px;border-width:4px 0 0 4px;border-radius:6px 0 0 0;}
+  .qr-corner.tr{top:-3px;right:-3px;border-width:4px 4px 0 0;border-radius:0 6px 0 0;}
+  .qr-corner.bl{bottom:-3px;left:-3px;border-width:0 0 4px 4px;border-radius:0 0 0 6px;}
+  .qr-corner.br{bottom:-3px;right:-3px;border-width:0 4px 4px 0;border-radius:0 0 6px 0;}
+
+  .url-pill{
+    background:#f4f4f5;
+    border:1.5px solid #e0e0e3;
+    border-radius:100px;
+    padding:10px 24px;
+    font-size:14px;
+    font-weight:700;
+    color:#444;
+    letter-spacing:.3px;
+  }
+  .url-pill span{color:#c8102e;}
+
+  /* steps */
+  .steps{
+    display:flex;
+    gap:24px;
+    width:100%;
+    justify-content:center;
+  }
+  .step{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    flex:1;
+    max-width:200px;
+  }
+  .step-num{
+    width:30px;height:30px;
+    border-radius:50%;
+    background:#c8102e;
+    color:#fff;
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:18px;
+    font-weight:900;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+    margin-top:1px;
+  }
+  .step-text{font-size:13px;color:#333;line-height:1.5;font-weight:500;}
+  .step-text strong{display:block;font-size:14px;color:#0e0e0f;margin-bottom:2px;}
+
+  /* bottom bar */
+  .bottom-strip{
+    width:100%;
+    border-top:2px solid #f0f0f0;
+    padding-top:16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .b-left{font-size:12px;color:#aaa;}
+  .b-right{font-size:12px;color:#aaa;text-align:right;}
+  .b-mid{
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:18px;font-weight:800;color:#ddd;letter-spacing:1px;
+  }
+
+  @media print{
+    body{width:8.5in;height:11in;}
+    .poster{page-break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+<div class="poster">
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="logo-block">
+      <div class="logo">CC<em>G</em></div>
+      <div class="gym-name">Center City Gym</div>
+    </div>
+    <div class="address-block">
+      <div class="addr">220 E. Lake St, Petoskey MI 49770</div>
+      <div class="addr">(231) 347-7177</div>
+    </div>
+  </div>
+
+  <!-- HEADLINE -->
+  <div class="headline">
+    <div class="hl1">Get the<br><em>CCG App</em></div>
+    <div class="hl2">Check in, track workouts, and manage your membership — right from your phone.</div>
+  </div>
+
+  <!-- QR CODE -->
+  <div class="qr-section">
+    <div class="qr-frame">
+      <div class="qr-corner tl"></div>
+      <div class="qr-corner tr"></div>
+      <div class="qr-corner bl"></div>
+      <div class="qr-corner br"></div>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=320x320&margin=10&data=https://center-city-app-bay.vercel.app/" width="320" height="320" alt="CCG App QR Code">
+    </div>
+    <div class="url-pill">center-city-app-bay.vercel.app</div>
+  </div>
+
+  <!-- HOW TO STEPS -->
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text"><strong>Scan the QR code</strong>Open your phone camera and point it at the code above.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text"><strong>Create your account</strong>Use the email on your gym membership to sign up.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text"><strong>Add to Home Screen</strong>Tap the share icon and "Add to Home Screen" to install the app.</div>
+    </div>
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="bottom-strip">
+    <div class="b-left">Free for all CCG members</div>
+    <div class="b-mid">CENTER CITY GYM</div>
+    <div class="b-right">centercitygym.com</div>
+  </div>
+
+</div>
+</body>
+</html>

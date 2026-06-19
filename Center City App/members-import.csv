@@ -1,0 +1,911 @@
+first_name,last_name,email,phone,barcode_id,plan,plan_category,contract_end,monthly_due,payment_method,status,total_revenue
+Jennifer,Wolf,,2313306421,903329,Check Draft Adult,Monthly,2021-12-26,45.00,Credit Card,OK,0.00
+Kevin,Kondrat,kk098@comcast.net,3136477068,897340,1 Year Senior Citizen 60 +,Annual,2026-11-12,320.00,Statement,OK,1280.00
+Mark,Hunter,,734789783459635,897261,3 Month Pre-Pay,3 Month,2021-07-30,0.00,Statement,OK,0.00
+Carl,Redder,sc.redder@att.net,2313302254,113477,3 Months Senior Citizen 60+,3 Month,2026-09-12,100.00,Credit Card,OK,1041.00
+Triston,Long,,9893703586,898883,Month-to-Month,Monthly,2021-03-15,50.00,Credit Card,OK,0.00
+Kenneth,Bucy,kenneth.b.buay@uv.edu,9182146331,902416,3 Month Pre-Pay,3 Month,2021-08-30,0.00,Statement,OK,0.00
+Melanie,Caldwell,melanie.s.caldwell@gmail.com,4143883243,112569,3 Months Adult,3 Month,2026-09-08,120.00,Statement,OK,700.00
+Isaac,Graham,isaacg@example.com,2318817196,113291,3 Months Adult,3 Month,2026-09-03,120.00,Statement,OK,1180.00
+Mary,Froede,mlfroede@gmail.com,5262908,902653,1 Year Senior Citizen 60 +,Annual,2027-02-13,320.00,Credit Card,OK,1326.00
+Stephanie,Batterbee,stephbatt13@aol.com,5178975070,115420,3 Months Adult,3 Month,2026-07-24,120.00,Statement,OK,1190.00
+Nick,Dunwoody,examplenick@example.com,2316752013,111369,1 Year Adult,Annual,2027-01-12,400.00,Credit Card,OK,1603.00
+David,Anderson,david1@example.com,9063706596,114293,6 Month Senior Citizen 60 +,6 Month,2026-06-28,170.00,Credit Card,OK,1623.00
+Tom,Gazarato,tomgazarato@gmail.com,9899483757,839697,1 Year Adult,Annual,2026-09-26,400.00,Credit Card,OK,245.00
+Nick,Steffel,steffelbottom@gmail.com,2318381240,113567,3 Months Adult,3 Month,2026-07-29,120.00,Statement,OK,2005.00
+Evelyn Seamster,Laporte,evelaporte@gmail.com,55555577,113835,1 Month Adult,Monthly,2026-07-09,50.00,Credit Card,OK,350.00
+Justin,Thomas,docjt87@gmail.com,2486334833,903574,1 Year Adult,Annual,2026-06-25,400.00,Credit Card,OK,2040.00
+Scott,Snyder,ex4@example.com,5126571211,114400,3 Months Senior Citizen 60+,3 Month,2026-08-13,100.00,Credit Card,OK,340.00
+Thomas,Taylor,thomast@example.com,2317584297,113448,Social District Service 6 mo,Social District,2026-11-21,168.00,Statement,OK,1151.00
+Larry,Laridon,larryl@example.com,5866346128,115523,6 Month Senior Citizen 60 +,6 Month,2026-08-01,170.00,Statement,OK,1363.00
+Kim,Mettler,kim@example.com,555.555.5506,109289,Social District Service 1 yr,Social District,2027-05-19,320.00,Statement,OK,1433.00
+Kerri,Finlayson,kfinl@ncmich.edu,8381754,112324,6 Month Adult,6 Month,2026-11-26,210.00,Statement,OK,1670.00
+Mitch,Pero,mi.jpero@gmail.com,2313738369,903668,Social District Service 3 mo,Social District,2026-07-29,100.00,Statement,OK,1864.00
+William,Haley,,2318815524,114535,3 Months Adult,3 Month,2026-07-20,120.00,Statement,OK,360.00
+Blayne,Bott,blayne@example.com,8389293,869857,1 Month Adult,Monthly,2026-06-22,50.00,Credit Card,OK,1252.00
+Dylan,Odenbach,dylanodenbaen@icloid.com,2314926682,114657,3 Months Adult,3 Month,2026-07-29,120.00,Statement,OK,170.00
+Zach,Jacobs,zacharyjacobs3@gmail.com,9893769964,114742,1 Month Adult,Monthly,2026-06-23,50.00,Statement,OK,110.00
+Libby,Austin,eking798@gmail.com,2318388460,113887,Social District Service 3 mo,Social District,2026-07-20,96.00,Credit Card,OK,899.00
+Grayson,Arms,graysonarms@gmail.com,2313733905,882863,1 Month Adult,Monthly,2026-07-08,50.00,Statement,OK,2313.00
+Chris,Rice,na89@exaple.com,231-333-8888,114641,3 Mo Military,3 Month,2026-07-22,100.00,Credit Card,OK,539.00
+Alexander,Pionk,ex34@example.com,2314393764,113380,1 Month Adult,Monthly,2026-07-03,50.00,Credit Card,OK,1056.00
+Debbie,Loscalzo,debbie@example.com,00000008,114039,3 Months Senior Citizen 60+,3 Month,2026-09-07,100.00,Credit Card,OK,620.00
+Colin,Murphy,mr.colinmurphy@pm.me,2313301352,114822,1 Mo Military,Monthly,2026-06-30,40.00,Credit Card,OK,1052.00
+Maura,Connaughton,maura@example.com,555-555-5502,114187,Social District Service 3 mo,Social District,2026-09-15,100.00,Credit Card,OK,1085.00
+Craig,Caldwell,craigcald@example.com,4145202507,115297,3 Months Senior Citizen 60+,3 Month,2026-09-08,100.00,Statement,OK,580.00
+James,Wolfgang,wgang44@aol.com,2313300030,113555,3 Months Senior Citizen 60+,3 Month,2026-07-19,100.00,Statement,OK,1200.00
+Ders,McCarthy,dersmc@example.com,231-881-7177,112382,Social District Service 3 mo,Social District,2026-08-08,100.00,Statement,OK,687.00
+Tyler,Waterman,tylerwaterman@example.com,2318816008,111584,Social District Service 1 yr,Social District,2026-06-29,320.00,Credit Card,OK,1402.00
+Liz,Keller,lizkeller2016@gmail.com,2318387098,115270,6 Month Senior Citizen 60 +,6 Month,2026-07-14,170.00,Statement,OK,850.00
+Alona Kelly,Podoliak,pecado@ukr.net,2313303459,115323,Social District Svc 1 mo,Social District,2026-07-02,40.00,Credit Card,OK,1107.00
+Jim,Parker,jimparker@example.com,5823494,011611,1 Year Senior Citizen 60 +,Annual,2027-05-10,320.00,Credit Card,OK,1603.00
+Jeanene,Calabrese,jeanene@example.com,555555556,115230,3 Months Senior Citizen 60+,3 Month,2026-08-29,100.00,Credit Card,OK,1213.00
+Jacob,VanHoosier,jacob2@example.com,2316223808,115444,3 Month Student (14-18 yrs),3 Month,2026-08-10,110.00,Statement,OK,1393.00
+Kendall,Pederson,na2@example.com,2314979171,110269,Check Draft Adult,Monthly,,45.00,Credit Card,OK,686.00
+Tripp,Thomas,trippthomas44@gmail.com,2039647440,115236,Social District Svc 1 mo,Social District,2026-06-26,40.00,Credit Card,OK,338.00
+Sarah,Cole,sarahlizcole@yahoo.com,6166343354,114579,Social District Service 3 mo,Social District,2026-07-05,96.00,Credit Card,OK,1323.00
+Dana,Andrews,danaandrews@gmail.com,2316228210,109414,1 Year Adult,Annual,2027-01-26,400.00,Statement,OK,1933.00
+Dylan,Taylor,dylanpt@umich.edu,7347093196,110278,6 Month Adult,6 Month,2026-12-10,210.00,Statement,OK,1620.00
+Jeremy,King,jeremy@example.com,555555559,114347,Social District Service 3 mo,Social District,2026-07-28,96.00,Credit Card,OK,1957.00
+Jacob,Elta,jeth356@yahoo.com,7746572437,115374,3 Months Adult,3 Month,2026-07-03,120.00,Credit Card,OK,1100.00
+Beth,Goodwin,beth@example.com,2318816409,902495,3 Months Adult,3 Month,2026-07-05,120.00,Statement,OK,1817.00
+James,Both,bothrentals@gmail.com,6144991985,113630,6 Month Adult,6 Month,2026-10-27,210.00,Credit Card,OK,2431.00
+Dan,Davis,danieljdavis62@gmail.com,2313308837,821257,Check Draft Senior,Monthly,,35.00,Credit Card,OK,2045.00
+Chris,Kurek,chriskurek@example.com,6145708245,903335,6 Month Adult,6 Month,2026-07-06,210.00,Credit Card,OK,420.00
+Jason,Sevenski,jasonseven@example.com,9063220037,113899,3 Months Adult,3 Month,2026-08-20,120.00,Credit Card,OK,1920.00
+Dan,Giametta,giametta@example.com,5862128186,858004,1 Year Adult,Annual,2026-11-18,400.00,Statement,OK,0.00
+Brean,Hoese,brea@example.com,2316758657,110728,6 Month Adult,6 Month,2026-07-15,210.00,Statement,OK,1680.00
+Garrett,Flynn,grflynn@icloud.com,2313732951,110843,Social District Svc 1 mo,Social District,2026-06-30,40.00,Credit Card,OK,938.00
+Robert,Pemberton,eembert8@gmail.com,2316222074,896914,1 Year Adult,Annual,2027-02-28,400.00,Statement,OK,2000.00
+Jessica,Temple,jessicatemple21@yahoo.com,4399414,109541,3 Months Adult,3 Month,2026-07-09,120.00,Credit Card,OK,2817.00
+Scott,Harrison,sth672@yahoo.com,5555556655,115268,6 Month Adult,6 Month,2026-12-02,210.00,Statement,OK,641.00
+Erika,Gazarato,esassafras@yahoo.com,2316224592,839742,1 Year Adult,Annual,2026-09-26,400.00,Credit Card,OK,99.00
+Lance,Edgerton,edgertonl@live.com,2314201935,112230,3 Months Adult,3 Month,2026-06-17,120.00,Credit Card,OK,1280.00
+Lou,Basso,lou@example.com,3477648,847944,1 Year Senior Citizen 60 +,Annual,2027-04-15,320.00,Credit Card,OK,1633.00
+Tom,Marsh,tommarsh2@comcast.net,3481136,111137,1 Month Senior Citizen 60+,Monthly,2026-06-26,40.00,Statement,OK,520.00
+Craig,Shomock,craig@example.com,2313307759,857693,1 Month Senior Citizen 60+,Monthly,2026-06-29,40.00,Statement,OK,2193.00
+Jacob,Schornak,schornakjacob@gmail.com,2314399403,115550,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,525.00
+Rich,Conti,rich@example.com,3483135,866868,3 Months Senior Citizen 60+,3 Month,2026-08-12,100.00,Statement,OK,1440.00
+Sydney,Bingaman,msbingaman04@gmail.com,2313732396,113910,3 Months Adult,3 Month,2026-08-03,120.00,Statement,OK,970.00
+DJ,Jones,djjones@example.com,2314879574,115686,Check Draft Adult,Monthly,,45.00,Credit Card,OK,1950.00
+Roger,Bashore,bashore@ex.com,3482881,114860,1 Year Senior Citizen 60 +,Annual,2026-09-14,320.00,Credit Card,OK,1280.00
+Chelsea,Olivarez,thefishoutwater.co@gmail.com,2318813800,112242,Social District Svc 1 mo,Social District,2026-06-17,40.00,Statement,OK,623.00
+Stephanie,O'Brien,stephanie@example.com,9179213797,114921,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,413.00
+Tanner,Siegert,tannersiegert@gmail.com,3202264362,113453,6 Month Adult,6 Month,2026-07-04,210.00,Statement,OK,590.00
+Bob,Meek,ex.exampmple1@example.com,2487613302,114816,6 Month Senior Citizen 60 +,6 Month,2026-10-31,170.00,Credit Card,OK,820.00
+Corbin,Hutton,corbinhutton@gmail.com,2489181894,115684,1 Year Adult,Annual,2026-08-07,400.00,Statement,OK,1600.00
+Scot,Graden,scot.graden@gmail.com,2315931263,113615,1 Year Adult,Annual,2026-09-07,400.00,Statement,OK,1940.00
+Bill,Seals,bill@example.com,2313489788,111731,1 Month Senior Citizen 60+,Monthly,2026-06-25,40.00,Credit Card,OK,840.00
+Patrick,Holt,patholt@example.com,7175990578,893908,1 Yr Military,Annual,2026-06-17,320.00,Credit Card,OK,1548.00
+Amanda,Athan,a@example.com,555-555-5554,889858,Social District Svc 1 mo,Social District,2026-06-17,40.00,Credit Card,OK,1097.00
+Ed,Radecki,rndom@example.com,2316223229,839685,6 Month Senior Citizen 60 +,6 Month,2026-11-27,170.00,Credit Card,OK,1540.00
+Justin,Heller,justinheller73@yahoo.com,2488827274,114544,Social District Svc 1 mo,Social District,2026-06-26,40.00,Statement,OK,1866.00
+Diane,Harris,harrisd@example.com,2315551000,114151,3 Months Senior Citizen 60+,3 Month,2026-08-21,100.00,Credit Card,OK,1050.00
+Mike,Patrick,irishmike7@hotmail.com,4870368,903346,1 Month Adult,Monthly,2026-06-27,50.00,Credit Card,OK,905.00
+John-Mark,Champion,chamipion@example.com,231622980,113306,6 Month Adult,6 Month,2026-10-29,210.00,Statement,OK,1087.00
+Keith,Klopcic,klopcic.keith@gmail.com,6167066672,115332,3 Months Senior Citizen 60+,3 Month,2026-09-07,100.00,Credit Card,OK,510.00
+Matthew,Lorence,,7042412121,903493,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Nathan,Steffel,nathansteffel@gmail.com,2318389944,113571,3 Months Adult,3 Month,2026-08-25,120.00,Credit Card,OK,2167.00
+Jack,Turner,example@gmail.com,2318388114,109417,3 Months Senior Citizen 60+,3 Month,2026-08-09,100.00,Credit Card,OK,910.00
+Mitchel,Rider,mitchel@exxample.com,2313737750,114751,Check Draft Adult,Monthly,,45.00,Credit Card,OK,345.00
+Mark,Walsh,walshmark108@gmail.com,2314298703,112373,3 Months Adult,3 Month,2026-08-12,120.00,Statement,OK,1470.00
+Robert,Harris,semanticblockage@hotmail.com,2319815674,114287,1 Month Adult,Monthly,2026-06-19,50.00,Credit Card,OK,2057.00
+Nicole,Deyoung,nicoledy34@gmail.com,2313736273,115517,3 Months Adult,3 Month,2026-09-14,120.00,Statement,OK,1960.00
+Julia,Genschaw,julia@gmail.com,2317586558,109265,6 Month Adult,6 Month,2026-08-14,210.00,Credit Card,OK,1548.00
+Jarrin,Kelly,jarrinkelly@example.com,231-555-2323,887426,Social District Service 3 mo,Social District,2026-07-29,96.00,Statement,OK,766.00
+Adam,Peterson,atpete67@yahoo.com,6304642326,114631,3 Months Adult,3 Month,2026-09-01,120.00,Statement,OK,1352.00
+Ray,Neckel,raycatneckel@yahoo.com,2316759408,111333,6 Month Senior Citizen 60 +,6 Month,2026-06-30,170.00,Statement,OK,1633.00
+John,Norton,johnnorton@gmail.com,2316221977,882934,1 Year Senior Citizen 60 +,Annual,2026-07-07,320.00,Credit Card,OK,1280.00
+Charles,Silveus,charliesilveus@gmail.com,2313736077,115221,Moeller Aerospace 3 mo,Other,2026-08-31,96.00,Credit Card,OK,96.00
+Maria,Manfredonia,quo_vadig@charter.net,2316221606,875821,3 Months Adult,3 Month,2026-06-22,120.00,Credit Card,OK,2135.00
+Steve,Nelle,steveruthnelle@gmail.com,2313471394,109282,1 Year Senior Citizen 60 +,Annual,2026-07-25,320.00,Statement,OK,1280.00
+Mark,Stanley,na7@example.com,2315555556,897410,1 Year Senior Citizen 60 +,Annual,2026-09-22,320.00,Credit Card,OK,1280.00
+Jessica,Sandler,jessica@example.com,8322368785,893236,6 Month Senior Citizen 60 +,6 Month,2026-10-10,170.00,Credit Card,OK,1280.00
+Jason,Martin,j@example.com,555555503,113472,3 Months Adult,3 Month,2026-08-18,120.00,Credit Card,OK,2160.00
+Nik,Taylor,ndtaylor2004@gmail.com,2313308184,110081,3 Months Adult,3 Month,2026-06-30,120.00,Statement,OK,1036.00
+Ian,Piehl,ianpiehl2002@gmail.com,23155555555,114163,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,1825.00
+Dalton,Smallwood,smallwood@example.com,555555557,113781,1 Mo Military,Monthly,2026-07-08,40.00,Credit Card,OK,445.00
+Paul,Kane,pjkane1980@gmail.com,2485156916,114020,3 Months Senior Citizen 60+,3 Month,2026-09-05,100.00,Statement,OK,512.00
+Mason,Cohen,mason.cohen930@gmail.com,6786372342,115589,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,50.00
+Todd,Chinnock,tchinnock@gmail.com,2318818274,115687,Social District Svc 1 mo,Social District,2026-06-16,40.00,Statement,OK,1567.50
+Kiersten,Bales,baleskna@example.com,231-675-6763,113565,Social District Service 3 mo,Social District,2026-08-15,100.00,Credit Card,OK,1447.00
+James,Rykse,jryske@gmail.com,2315352781,882814,1 Month Senior Citizen 60+,Monthly,2026-06-25,40.00,Statement,OK,1161.00
+Charlie,Thomas,ex7@example.com,2313738210,115627,3 Months Adult,3 Month,2026-08-26,120.00,Statement,OK,630.00
+David,Nowitzky,jgoodspeed87@hotmail.com,2318384087,903557,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Caroline,Farley,,2318381221,902484,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Grant,Tripp,trippg@student.ncmich.edu,2318816004,114696,Social District Service 1 yr,Social District,2027-05-08,320.00,Credit Card,OK,1638.00
+Colin,Mack,makk94@hotmail.com,2313477043,903754,1 Year Adult,Annual,2026-11-15,400.00,Credit Card,OK,1872.00
+Mason,Blumke,blumkem@gmail.com,2313736161,114484,3 Months Adult,3 Month,2026-08-17,120.00,Credit Card,OK,1180.00
+Berezi,Zabala,btatala005@hotmail.com,8952272787,114929,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,100.00
+Max,Shier,ms.soccerman998@yahoo.com,8595595055,114933,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,100.00
+Tom,Swears,tomswears@example.com,2393483876,889057,3 Months Senior Citizen 60+,3 Month,2026-09-11,100.00,Credit Card,OK,480.00
+Jim,McLain,example.example21@example.com,555556956,872534,1 Year Senior Citizen 60 +,Annual,2026-09-19,320.00,Credit Card,OK,1280.00
+Madelaine,McShannock,madeline@example.com,2313734672,898664,3 Months Adult,3 Month,2026-07-05,120.00,Credit Card,OK,1503.00
+Daniel,Wentz,99wentzdan19@gmail.com,2312031015,115714,3 Months Adult,3 Month,2026-08-09,120.00,Credit Card,OK,4811.00
+Tyler,Swiss,tswiss@emmetcounty.org,5267327,875781,1 Yr Military,Annual,2026-06-26,320.00,Credit Card,OK,1379.00
+Kolbi,Shumaker,kolbi_6@yahoo.com,2314598269,114273,1 Month Adult,Monthly,2026-07-05,50.00,Credit Card,OK,1591.00
+Garrett,Farkas,bearfarkas@gmail.com,3526102949,112450,1 Month Adult,Monthly,2026-07-05,50.00,Credit Card,OK,1200.00
+Mark,Hopkins,markhop@example.com,3480856,114204,1 Month Senior Citizen 60+,Monthly,2026-06-17,40.00,Credit Card,OK,400.00
+Thomas,Biggs,thomasdbiggs@gmail.com,7347657282,821408,1 Year Senior Citizen 60 +,Annual,2027-03-15,320.00,Statement,OK,1604.00
+David,Faulkner,faulkwalloon@yahoo.com,2318385553,111689,3 Months Senior Citizen 60+,3 Month,2026-06-27,100.00,Credit Card,OK,695.00
+Abigail,Rogier,arogier123@gmail.com,6189732864,113457,6 Month Adult,6 Month,2026-07-04,210.00,Statement,OK,420.00
+Scott,Fineout,scottfinout@live.com,5176487255,112168,3 Months Senior Citizen 60+,3 Month,2026-09-09,100.00,Credit Card,OK,720.00
+Larry,Koehler,lkoeh@cherter.net,2319384515,112368,6 Month Senior Citizen 60 +,6 Month,2026-11-26,170.00,Statement,OK,1360.00
+Paul,Casciani,print@villagegraphicsinc.com,2316759930,115391,1 Year Senior Citizen 60 +,Annual,2027-04-22,320.00,Statement,OK,39.00
+Bob,Spalding,sandeek@charterine.net,2313488133,850904,6 Month Senior Citizen 60 +,6 Month,2026-09-03,170.00,Credit Card,OK,1530.00
+Blaine,Bradford,bbradford@example.com,6307478336,851055,1 Year Senior Citizen 60 +,Annual,2027-01-06,320.00,Statement,OK,1190.00
+Pam,Fochtman,pamf@example.com,5268842,887428,3 Months Senior Citizen 60+,3 Month,2026-08-07,100.00,Statement,OK,1820.00
+Larisa,Means,larisameans@yahoo.com,9413506587,110882,3 Months Adult,3 Month,2026-06-29,120.00,Statement,OK,1684.00
+Davina,Gutierrez,d@example.com,55555520,114362,3 Months Adult,3 Month,2026-08-02,120.00,Statement,OK,1680.00
+Jonas,Sevin,jonassevin@gmail.com,2318815775,115533,Social District Service 3 mo,Social District,2026-07-06,96.00,Credit Card,OK,1584.00
+Tom,Mullin,tommullin@example.com,4399421,114603,Check Draft Adult,Monthly,,33.00,Bank,OK,1782.00
+Ben,Shuman,benshuman612@gmail.com,2316606071,115583,1 Month Adult,Monthly,2026-06-17,50.00,Credit Card,OK,962.00
+Tyler,Vuke,tyler.vuke@gmail.com,9844930458,109491,Social District Service 1 yr,Social District,2026-10-30,320.00,Credit Card,OK,1563.00
+Leslie,Vyletel,lesliev@example.com,313-310-0356,113856,3 Months Adult,3 Month,2026-08-21,120.00,Statement,OK,640.00
+Ruth,Nelle,rtnelle@gmail.com,2313471394,109391,1 Year Senior Citizen 60 +,Annual,2027-05-27,320.00,Credit Card,OK,1610.00
+Racheal,Hill,rachealhill@example.com,2316229065,110675,3 Months Adult,3 Month,2026-07-14,120.00,Statement,OK,1005.00
+Katie,Deyoung,katiedy136@gmail.com,2313736228,113590,1 Month Adult,Monthly,2026-07-03,50.00,Statement,OK,1680.00
+Sarah,Dick,sarahdick@gmail.com,2313292171,112306,3 Months Adult,3 Month,2026-08-05,120.00,Statement,OK,1023.00
+Drew,Smith,drew2002@example.com,2313301561,115493,6 Month Adult,6 Month,2026-08-16,210.00,Statement,OK,990.00
+Paula,Ryan,medusa_84@hotmail.com,2313482645,902613,1 Year Adult,Annual,2027-02-04,400.00,Credit Card,OK,1583.50
+Robert,Johnson,bobjohnson@fletchs.com,2318381198,113045,3 Months Senior Citizen 60+,3 Month,2026-08-03,100.00,Credit Card,OK,1692.00
+Sean,Celmer,seancelmer75@gmail.com,6023487178,115427,Social District Service 3 mo,Social District,2026-07-17,96.00,Credit Card,OK,2673.50
+Janet,Rykse,janetrykse@example.com,2315352781,109921,1 Month Senior Citizen 60+,Monthly,2026-06-25,40.00,Statement,OK,1200.00
+Michael,McGuire,mcguire@example.com,2487588602,112747,6 Month Adult,6 Month,2026-07-28,210.00,Credit Card,OK,1143.00
+Brianna,McCulloch,brikhair82@gmail.com,8643595095,111037,Social District Service 3 mo,Social District,2026-08-05,96.00,Statement,OK,1778.00
+Jeremy,McKay,jeremiahmckay@icloud.com,2318810964,821513,6 Month Adult,6 Month,2026-08-15,210.00,Credit Card,OK,960.00
+Mark,Holland,mholland@triton.net,2313475216,113473,Check Draft Adult,Monthly,,42.00,Credit Card,OK,2270.00
+Chaz,Babin,chazbna@example.com,989-708-5773,112918,3 Months Adult,3 Month,2026-07-28,120.00,Statement,OK,697.00
+Brenden,Grangood,fake@gmail.com,2109541,114190,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,470.00
+Jacob,Bush,jacob@example.com,5177153347,114728,3 Months Adult,3 Month,2026-09-15,120.00,Credit Card,OK,1612.00
+Jeff,Genschaw,jgenschaw@gmail.com,3474207,112449,6 Month Adult,6 Month,2026-10-01,210.00,Statement,OK,1920.00
+Carson,Lo,carsondeanlo@gmail.com,2318812699,903653,1 Year Adult,Annual,2026-10-20,400.00,Credit Card,OK,2063.50
+Logan,Wolf,wiztwiz2007@gmail.com,2313734635,114694,1 Month Adult,Monthly,2026-07-07,50.00,Statement,OK,890.00
+Tracy,Datlen,example.example14@example.com,9549932057,109764,1 Year Senior Citizen 60 +,Annual,2026-11-14,320.00,Credit Card,OK,1246.00
+Bob,Drost,bobdrost@drostlandscape.com,2318382204,898573,6 Month Senior Citizen 60 +,6 Month,2026-11-13,170.00,Credit Card,OK,1190.00
+Jamisyn,Karr,jamisynkarr@gmail.com,2318811318,114855,1 Month Adult,Monthly,2026-07-15,50.00,Statement,OK,250.00
+Mike,Fitzgerald,mikef@example.com,2487631170,865919,1 Year Senior Citizen 60 +,Annual,2027-05-12,320.00,Credit Card,OK,1600.00
+Jeff,Collard,jeffcollard@att.net.com,2484203106,115535,6 Month Adult,6 Month,2026-11-03,210.00,Credit Card,OK,1890.00
+Paul,Krecke,paul@example.com,5172856542,112088,3 Months Senior Citizen 60+,3 Month,2026-08-18,100.00,Credit Card,OK,1820.00
+Bobby,Wood,bdubbya15@gmail.com,2313406608,114572,Check Draft Adult,Monthly,,45.00,Credit Card,OK,1170.00
+Pete,Kitto,ex35@example.com,7346490587,110316,3 Months Senior Citizen 60+,3 Month,2026-08-22,100.00,Credit Card,OK,580.00
+Lauren,Bixby,lauren@example.com,2312224545,114832,1 Year Adult,Annual,2027-04-26,400.00,Credit Card,OK,868.00
+Parker,Arms,parkerarms2019@gmail.com,2313733894,898708,6 Month Adult,6 Month,2026-06-29,210.00,Credit Card,OK,1390.00
+Jack,Morris,mjmjr1918@gmail.com,2487091224,113176,1 Month Senior Citizen 60+,Monthly,2026-06-18,40.00,Statement,OK,2414.00
+Tom,Fiel,tom@xample.com,2316751269,114284,6 Month Adult,6 Month,2026-10-12,210.00,Credit Card,OK,1481.00
+Kaitlyn,Bingaman,kaitlunb@example.com,2313737949,111026,6 Month Adult,6 Month,2026-10-29,210.00,Statement,OK,1250.00
+Reed,Perkins,reedcperkins@gmail.com,6467043381,115288,6 Month Adult,6 Month,2026-12-08,210.00,Statement,OK,940.00
+Gabe,Gattle,gabegattle@gmail.com,3182826236,115609,3 Months Adult,3 Month,2026-08-22,120.00,Statement,OK,470.00
+Tony,Manfredonia,contact@manfredoniamusic.com,2159003014,888945,3 Months Adult,3 Month,2026-07-08,120.00,Credit Card,OK,2459.00
+Jamie,Nowitzky,duplicate-903558@ccg-placeholder.com,2318384087,903558,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Marty,Serva,martyserve@gmail.com,2318813820,112408,Social District Service 3 mo,Social District,2026-08-04,96.00,Statement,OK,1278.00
+Travis,Wiltjer,traviswiltjer@gmail.com,2318834183,902598,1 Year Adult,Annual,2026-10-09,400.00,Statement,OK,1839.00
+Callaway,Moore,moore3ck@cmich.edu,2318816416,115392,1 Month Adult,Monthly,2026-07-08,50.00,Credit Card,OK,2059.00
+Keegan,Haalck,kahaalck@charter.net,2317582363,111124,Social District Service 1 yr,Social District,2026-08-26,320.00,Statement,OK,840.00
+Katie,Kelly,kmkelly10@gmail.com,2318811802,110776,Social District Service 3 mo,Social District,2026-08-11,100.00,Credit Card,OK,1640.00
+Barb,Moore,barb@example.com,2315558789,112327,6 Month Adult,6 Month,2026-09-23,210.00,Credit Card,OK,1890.00
+Remington,Barnadyn,rdbarnadyn@gmail.com,2318813230,112070,1 Month Adult,Monthly,2026-07-14,50.00,Statement,OK,1750.00
+Larry,Froede,larry@example.com,2319999999,857833,3 Months Senior Citizen 60+,3 Month,2026-08-20,100.00,Credit Card,OK,1620.00
+Maria,Yeager,yeager@ex.com,5555555565,882890,6 Month Adult,6 Month,2026-08-05,210.00,Credit Card,OK,1592.00
+Brad,Petersen,brad@example.com,2083576085,898716,6 Month Adult,6 Month,2026-08-09,210.00,Statement,OK,1250.00
+Gary,Fedus,fedus@ex.com,3483990,903232,1 Year Adult,Annual,2026-11-07,400.00,Credit Card,OK,758.00
+Mya,Malkowski,milo@example.com,555-555-5502,115572,3 Months Adult,3 Month,2026-08-14,120.00,Statement,OK,1340.50
+Jaxon,Kingma,jaxonkingma@gmail.com,2318813223,113816,3 Months Adult,3 Month,2026-07-07,120.00,Statement,OK,530.00
+Joe,Mullin,,2314399421,1105118,Check Draft Adult,Monthly,,27.00,Bank,OK,1478.00
+Rob,Miller,rmiller@example.com,3478414,115509,1 Month Senior Citizen 60+,Monthly,2026-06-25,40.00,Credit Card,OK,240.00
+Ava,Genschaw,avagemschaw7@gmail.com,2318816976,115568,1 Year Adult,Annual,2027-05-14,400.00,Statement,OK,1278.00
+Mickey,Collins,,5172301664,902492,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Benjamin,McShannock,na@gmail.com,2313734672,114075,1 Month Student (14-18),Monthly,2026-06-23,45.00,Statement,OK,90.00
+Michael,Kazanowski,mkazanowski2@gmail.com,2487363203,110650,Social District Service 3 mo,Social District,2026-08-05,100.00,Statement,OK,1360.00
+Malcolm,Wilson,asgsda@example.com,9896007035,112283,6 Month Senior Citizen 60 +,6 Month,2026-09-26,170.00,Credit Card,OK,1170.00
+Andrew,Mangiapane,mangiapane@exmaple.com,555555555,889785,Social District Service 1 yr,Social District,2026-08-11,320.00,Credit Card,OK,960.00
+Nicholas,Heary,paul@gmail.com,2315906731,109919,3 Months Senior Citizen 60+,3 Month,2026-07-06,100.00,Credit Card,OK,518.00
+Joe,Hogedoun,,5027277182,903524,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Philip,Alejo,walkabass@hotmail.com,5633403230,112630,1 Month Adult,Monthly,2026-07-13,50.00,Credit Card,OK,460.00
+Hannah,Waterman,schario@gmail.com,2486603983,897306,Social District Service 1 yr,Social District,2027-04-06,320.00,Credit Card,OK,1444.00
+Tom,Kolinske,tomk@example.com,2313474508,113374,3 Months Senior Citizen 60+,3 Month,2026-07-01,100.00,Credit Card,OK,810.00
+Ian,LaHaie,ianlahaie@gmail.com,2318818993,903500,3 Months Adult,3 Month,2026-08-07,120.00,Credit Card,OK,1682.00
+Bill,Larsen,bill23@example.com,3478835,110207,6 Month Senior Citizen 60 +,6 Month,2026-10-14,170.00,Credit Card,OK,1635.00
+Gary,Gurizzian,gary@example.com,2379028,1177663,1 Year Senior Citizen 60 +,Annual,2027-03-18,320.00,Credit Card,OK,1965.00
+Sara,Glasgow,sara@example.com,5555555503,113300,Social District Service 6 mo,Social District,2026-07-13,168.00,Credit Card,OK,1004.00
+Joshua,Magda,joshmagda@gmail.com,9704569129,903494,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Matteen,Victory,matteen.victory@gmail.com,5199658303,109269,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Jim,Bayak,jamesbay@example.com,2315555559,113309,3 Months Senior Citizen 60+,3 Month,2026-06-22,100.00,Statement,OK,1440.00
+Amanda,Collins,amandasco414@yahoo.com,5175436866,902490,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Ron,Cocquyt,ronc@example.com,5862864503,113869,6 Month Senior Citizen 60 +,6 Month,2026-11-19,170.00,Credit Card,OK,850.00
+Ryan,Carriveau,ryan@exmaple.com,9895900425,109450,Check Draft Adult,Monthly,,45.00,Credit Card,OK,2005.00
+Adam,Kazanowski,adamk@example.com,2319992345,110152,Social District Service 1 yr,Social District,2027-05-26,320.00,Credit Card,OK,1448.00
+Andrew,VanWart,vanwart92@gmail.com,2313732298,113041,1 Month Adult,Monthly,2026-07-15,50.00,Credit Card,OK,1200.00
+Leah,Biggs,leahbriggs@example.com,7347657281,821501,1 Year Senior Citizen 60 +,Annual,2027-06-01,320.00,Credit Card,OK,1280.00
+Brett,Rice,brlifez3@gmail.com,9512396499,114504,1 Year Adult,Annual,2026-11-06,400.00,Credit Card,OK,702.00
+Mia,Fletcher,mia@example.com,555-555-5504,872675,3 Months Senior Citizen 60+,3 Month,2026-06-30,100.00,Credit Card,OK,1530.00
+Nick,Baldwin,nick.baldwin444@gmail.com,9062399021,115207,3 Months Adult,3 Month,2026-07-25,120.00,Credit Card,OK,2153.00
+Laurentiu,Toader,laurentiutoader.iec@gmail.com,2314899702,113288,Social District Service 3 mo,Social District,2026-07-06,100.00,Credit Card,OK,2623.00
+Matt,Moore,mattmoore@example.com,555555553,112331,6 Month Adult,6 Month,2026-12-03,210.00,Credit Card,OK,1928.00
+Camron,Johnson,jcamron8@gmail.com,2315555555,115504,Social District Service 3 mo,Social District,2026-07-12,100.00,Credit Card,OK,2375.00
+Kelli,Ernst,kwakuat@gmail.com,2314970681,115453,Check Draft Adult,Monthly,2026-06-20,45.00,Credit Card,OK,951.50
+Gregg,Ecker,g_ecker@hotmail.com,3483077,115362,3 Months Senior Citizen 60+,3 Month,2026-07-07,100.00,Credit Card,OK,1720.00
+Lori,Stanley,na6@example.com,231555556,113395,1 Year Senior Citizen 60 +,Annual,2027-02-15,320.00,Credit Card,OK,1280.00
+Dylin,Anderson,dylinanderson@gmail.com,5023164938,902486,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Chris,Montague,cmon4476@gmail.com,3124021954,113552,1 Year Senior Citizen 60 +,Annual,2026-07-01,320.00,Credit Card,OK,1752.50
+Emily,Velchansky,emilyvel@exmaple.com,2318385442,115300,Social District Service 3 mo,Social District,2026-09-08,100.00,Credit Card,OK,1190.00
+Christopher,Heckman,checkman2219@gmail.com,2313302959,109886,6 Month Adult,6 Month,2026-10-10,210.00,Statement,OK,1990.74
+Frank,Benson,ivgroup@me.com,,902491,Check Draft Adult,Monthly,,0.00,Statement,OK,0.00
+Ashley,Kilmer,kilmer.ashley@yahoo.com,2315355022,114482,1 Year Adult,Annual,2027-02-13,400.00,Credit Card,OK,2054.50
+Tom,Kelly,mr.tom.kelly@gmail.com,4153783586,903561,6 Month Adult,6 Month,2026-09-01,210.00,Statement,OK,1570.00
+Sam,Knowles,srknowles1@gmail.com,5134445402,505862,1 Month Adult,Monthly,2026-06-17,50.00,Statement,OK,362.00
+Mark,Pappin,mark@example.com,8109386782,113894,Social District Service 6 mo,Social District,2026-10-23,168.00,Statement,OK,1685.00
+Brendan,Chalupniczak,chaluhiczakb@gmail.com,231-550-2344,114763,Social District Service 3 mo,Social District,2026-08-27,100.00,Credit Card,OK,1324.00
+Bill,Reierson,billreierson78@gmail.com,2484644305,893447,3 Months Adult,3 Month,2026-08-28,120.00,Credit Card,OK,1970.00
+Diana,Barbier,example.exampl211@example.com,2312421209,111713,6 Month Senior Citizen 60 +,6 Month,2026-09-02,170.00,Credit Card,OK,1090.00
+Brandon,Schadler,schadler.brandon@gmail.com,8155505130,114853,1 Mo Military,Monthly,2026-06-27,40.00,Credit Card,OK,2956.00
+Phil,Harmon,phil@example.com,2313309997,897256,6 Month Senior Citizen 60 +,6 Month,2026-10-15,170.00,Statement,OK,1570.00
+Mike,Alverson,mikea@ex.com,55555555551,789957,1 Year Senior Citizen 60 +,Annual,2026-07-16,320.00,Credit Card,OK,930.00
+Austin,Russell,russella909@gmail.com,2318833393,114829,Check Draft Adult,Monthly,,45.00,Statement,OK,444.00
+Gary,Scholl,65at2950@aol.com,2315352950,111438,6 Month Senior Citizen 60 +,6 Month,2026-07-03,170.00,Credit Card,OK,1670.00
+Gary,Zebko,gary1@example.com,2315261312,113223,1 Month Senior Citizen 60+,Monthly,2026-06-17,40.00,Credit Card,OK,880.00
+Jenny,King,jennyking3621@gmail.com,2318817746,851018,Social District Service 3 mo,Social District,2026-09-07,100.00,Credit Card,OK,1648.00
+David,Firman,dfirman@juno.com,4395067,114386,6 Month Adult,6 Month,2026-11-17,210.00,Credit Card,OK,2404.00
+Greg,Hoese,ghoese48@gmail.com,2316756150,110726,6 Month Adult,6 Month,2026-10-16,210.00,Statement,OK,1523.00
+Betsy,Petersen,betsypetersen1@gmail.com,2313307988,901006,6 Month Adult,6 Month,2026-08-09,210.00,Statement,OK,1220.00
+William,Pizzuti,pizzutiw906@gmail.com,2313736746,902403,Social District Service 3 mo,Social District,2026-08-14,100.00,Statement,OK,1043.00
+Sean,Brants,brants88@yahoo.com,2318384970,115618,1 Month Adult,Monthly,2026-06-25,50.00,Credit Card,OK,370.00
+Kenneth,Michelini,ken@example.com,243-613-1015,114295,1 Year Adult,Annual,2026-12-30,400.00,Statement,OK,1214.00
+Shane,Hahn,shanemhanhn@gmail.com,3215068182,111119,1 Year Adult,Annual,2027-04-27,400.00,Statement,OK,2080.00
+Scout,Kolinski,scoutduckserlot@gmail.com,2313300116,115628,6 Month Adult,6 Month,2026-10-28,210.00,Credit Card,OK,1150.00
+Matt,Sandler,sandman59@msn.com,6308530868,114377,6 Month Senior Citizen 60 +,6 Month,2026-10-11,170.00,Statement,OK,1396.00
+Logan,Coutcher,logancoutcher@gmail.com,2318810948,113751,1 Month Adult,Monthly,2026-06-21,50.00,Credit Card,OK,845.00
+Raymond,Blackbull,mcloinkers85@gmail.com,2318387439,111266,1 Month Adult,Monthly,2026-06-28,50.00,Credit Card,OK,3073.00
+Yvette,Bass,calin4tion84@gmail.com,559-860-7823,113196,1 Mo Military,Monthly,2026-07-02,40.00,Statement,OK,2186.00
+Matt,Lesky,lesky1mw@hotmail.com,2318384566,110781,Check Draft Adult,Monthly,,40.00,Credit Card,OK,4004.00
+Garrett,Kuhlman,garrett.kuhlmondc@gmail.com,5174428757,113410,Check Draft Adult,Monthly,,45.00,Credit Card,OK,2462.00
+Jill,Reynolds,reynoldsjill@att.net,2318813031,111671,6 Month Adult,6 Month,2026-07-05,210.00,Statement,OK,1500.00
+David,Baldwin,dmbaldwin434@gmail.com,23120334190,115474,3 Months Adult,3 Month,2026-08-18,120.00,Credit Card,OK,704.00
+Craig,Markos,craig.markos@hylant.com,6145785032,903272,1 Year Senior Citizen 60 +,Annual,2026-12-28,320.00,Statement,OK,1050.00
+Kate,Marshall,katemarshall@hotmail.com,2313470587,114365,1 Year Senior Citizen 60 +,Annual,2026-09-01,320.00,Statement,OK,1410.00
+Colin,Murphy,pohlcatace14@gmail.com,9898586077,110562,1 Year Adult,Annual,2026-12-08,400.00,Statement,OK,1750.00
+Caitlyn,Schaller,schal1cg@cmich.edv,8106140120,114042,3 Months Adult,3 Month,2026-06-29,120.00,Statement,OK,1370.00
+Ethan,Coucke,couckeet@gmail.com,8106561884,115653,1 Year Adult,Annual,2026-06-30,400.00,Statement,OK,1560.00
+Seth,Borgeld,sborgeld@yahoo.com,386-299-9631,114602,Social District Service 3 mo,Social District,2026-07-18,96.00,Statement,OK,775.00
+Scott,Wiltjer,scottwiltjer@gmail.com,2318810413,115443,Social District Service 6 mo,Social District,2026-08-11,168.00,Statement,OK,722.00
+Randy,DeGayner,randydegayner@gmail.com,2313306220,114786,1 Month Adult,Monthly,2026-07-08,50.00,Credit Card,OK,1320.00
+Gwyn,Smith,gwynsmith@gmail.com,231-881-4606,109488,Social District Service 1 yr,Social District,2026-09-09,320.00,Statement,OK,1050.00
+William,Wolff,billwollf@hylant.com,4145317790,109408,1 Year Senior Citizen 60 +,Annual,2027-03-01,320.00,Statement,OK,1210.00
+Daniel,Howard,dhoward@icloud.com,2318811320,109514,3 Month Student (14-18 yrs),3 Month,2026-07-20,110.00,Credit Card,OK,1512.50
+Joe,Bohn,joeburhn@example.com,2314202364,112826,6 Month Adult,6 Month,2026-10-29,210.00,Credit Card,OK,1843.00
+Reese,DeGayner,reese@example.com,231373711,115488,1 Month Adult,Monthly,2026-06-30,50.00,Credit Card,OK,1110.00
+Chris,Winter,christine@example.com,2313732962,112239,3 Months Adult,3 Month,2026-09-04,120.00,Credit Card,OK,1010.00
+Joshua,Jordan,jordanarmed1234@gmail.com,2318818591,114724,Check Draft Adult,Monthly,,45.00,Credit Card,OK,2562.50
+Tiffany,Hall,tiffanykanouse@gmail.com,2312500255,109545,6 Month Adult,6 Month,2026-06-29,210.00,Credit Card,OK,1730.00
+Nick,Fosmore,fosmorbuilding@gmail.com,2318384480,109549,6 Month Adult,6 Month,2026-06-29,210.00,Credit Card,OK,1741.00
+Morgan,Whisker,morgan@example.com,2318380829,113293,Check Draft Student,Monthly,,35.00,Credit Card,OK,950.00
+David,Stuber,dpstuber@me.com,9898605267,112066,Check Draft Adult,Monthly,,45.00,Credit Card,OK,2418.00
+BriAnna,Findley,finnyme@gmail.com,612-275-2131,109500,Social District Service 1 yr,Social District,2027-04-10,320.00,Statement,OK,1810.00
+Mark,Weinmann,weinmann.mark@gmail.com,612-234-5177,109544,Social District Service 1 yr,Social District,2027-04-10,320.00,Statement,OK,1850.00
+Emma,Bielby,emmatho@umich.edu,248-635-1685,114800,3 Months Adult,3 Month,2026-07-03,120.00,Credit Card,OK,341.00
+Sean,Bielby,seanbielby@gmail.com,734 730 7021,114833,Social District Service 1 yr,Social District,2027-04-15,320.00,Credit Card,OK,1423.00
+Taylen,Iuni,mommaang0607@yahoo.com,2313732302,505804,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,755.00
+Hannah,Boorsman,hannahrae316@icloud.com,313 543 4410,115426,Check Draft Adult,Monthly,,45.00,Credit Card,OK,432.00
+Mitchell,Kranig,mitchellkranig@icloud.com,231 881 7599,109602,3 Months Adult,3 Month,2026-07-25,120.00,Credit Card,OK,1164.00
+Ryan,Higgins,rhiggins27@gmail.com,7342230907,115632,3 Months Adult,3 Month,2026-08-26,120.00,Statement,OK,1270.00
+James,Abell,jamesdabell@gmail.com,231 33 2161,109638,Check Draft Senior,Monthly,,35.00,Credit Card,OK,1542.00
+Joe,McCarthy,piljoepmac@gmail.com,2318811822,114192,1 Month Adult,Monthly,2026-07-09,50.00,Credit Card,OK,1284.00
+Clara,Johnson,clararay203@gmail.com,2312031808,114018,3 Months Adult,3 Month,2026-08-17,120.00,Credit Card,OK,1844.00
+Maggie,Petersen,mrpetersen88@gmail.com,2316221459,112039,3 Months Adult,3 Month,2026-08-03,120.00,Statement,OK,638.00
+Devin,Marvin,devin@example.com,2318813677,114750,3 Months Adult,3 Month,2026-07-14,120.00,Statement,OK,440.00
+Robert,Grupp,rwgrupp@aol.com,4845578401,113513,6 Month Senior Citizen 60 +,6 Month,2026-11-18,170.00,Credit Card,OK,760.00
+Kobe,Wilder,k.wilder2001@gmail.com,2318819333,114404,Social District Service 3 mo,Social District,2026-09-09,100.00,Statement,OK,1510.00
+Kristin,Schaner,findoo21@gmail.com,8458574971,109813,6 Month Adult,6 Month,2026-07-23,210.00,Credit Card,OK,1680.00
+Phil,Schaner,pl50583@hotmail.com,9522200630,109793,6 Month Senior Citizen 60 +,6 Month,2026-07-23,170.00,Credit Card,OK,1560.00
+Bob,Fruchter,davidsgoliattis.40@example.com,4408298926,113787,1 Month Senior Citizen 60+,Monthly,2026-07-07,40.00,Statement,OK,500.00
+Marek,Beckering,marekbeckering@gmail.com,2313732386,115545,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,270.00
+Christian,Wilder,c.andersonwilder@gmail.com,2318811497,114478,3 Months Adult,3 Month,2026-07-27,120.00,Credit Card,OK,1245.00
+Amy,Gattle,amy@example.com,2257185730,113747,3 Months Adult,3 Month,2026-08-21,120.00,Statement,OK,610.00
+David,Gerathy,pgerathy@gmail.com,2485741218,115438,Check Draft Adult,Monthly,2026-07-07,45.00,Credit Card,OK,225.00
+Tanner,Lapidus,tanner.lupidus@aol.com,2398601494,111041,1 Month Adult,Monthly,2026-07-10,50.00,Credit Card,OK,1270.00
+Reese,Marvin,reesemarvin@icloud.com,2318384286,115538,3 Months Adult,3 Month,2026-07-31,120.00,Credit Card,OK,560.00
+Allen,Fauser,allenfauser@gmail.com,2314451999,115476,Social District Service 6 mo,Social District,2026-09-18,168.00,Statement,OK,1536.00
+Dana,Howbert,danahaubert@gmail.com,3136104983,114925,1 Month Adult,Monthly,2026-07-14,50.00,Statement,OK,450.00
+Max,Freed,mfreed@ltu.edu,9899488258,110849,Social District Service 3 mo,Social District,2026-06-17,96.00,Credit Card,OK,2149.00
+Trevor,Schultz,trevorschultz99@icloud.com,2487976899,115276,1 Month Student (14-18),Monthly,2026-07-01,45.00,Credit Card,OK,402.00
+Bill,Crawford,tizzoey@gmail.com,9283869266,109876,3 Months Senior Citizen 60+,3 Month,2026-08-31,100.00,Statement,OK,180.00
+James,Kersting,jkersting15@example.com,2314970224,113175,1 Month Adult,Monthly,2026-06-30,50.00,Credit Card,OK,1360.00
+Jaxon,Marsh,marshax126@gmail.com,2312623049,115620,3 Month Student (14-18 yrs),3 Month,2026-08-19,110.00,Credit Card,OK,531.00
+Sandford,Kopnick,sandford@example.com,5132653984,111178,3 Months Senior Citizen 60+,3 Month,2026-08-26,100.00,Statement,OK,425.50
+Isaac,Horvath,horvathisaac@gmail.com,231-373-0697,114821,1 Month Adult,Monthly,2026-06-20,50.00,Statement,OK,390.00
+Michael,Trowbridge,m.a.tbridge1980@gmail.com,2315291091,109966,3 Months Senior Citizen 60+,3 Month,2026-06-23,100.00,Statement,OK,1400.00
+Shelby,Webster,shelb.webster@gmail.com,2314595999,113932,3 Months Adult,3 Month,2026-08-18,120.00,Statement,OK,600.00
+Brittney,Bunker,na10@example.com,2318818693,109928,Social District Svc 1 mo,Social District,2026-06-25,40.00,Bank,OK,1504.00
+Craig,Cuffe,ccuffe@kableslink.com,813-376-8361,113479,1 Year Adult,Annual,2027-03-23,400.00,Statement,OK,1220.00
+Jeffrey,George,jageorge1989@gmail.com,9412768534,114748,3 Months Adult,3 Month,2026-07-13,120.00,Statement,OK,480.00
+Jill,McLain,jillcmclain@gmail.com,6163402025,110127,1 Year Adult,Annual,2026-08-11,400.00,Statement,OK,870.00
+Katie,Crosby,katiecrosbyboth@gmail.com,2313304029,115677,Social District Service 6 mo,Social District,2026-10-02,168.00,Credit Card,OK,1131.00
+Marcin,Jankowski,na99@example.com,231-347-5400,115428,1 Year Adult,Annual,2027-04-22,400.00,Statement,OK,1891.00
+Thomas,Bowman,tom@ex.com,2318383340,115499,1 Month Adult,Monthly,2026-07-12,50.00,Credit Card,OK,2358.00
+Challen,Olson,challenbehan@gmail.com,231-675-5996,113065,6 Month Adult,6 Month,2026-10-07,210.00,Credit Card,OK,1580.00
+Joshua,Clark,joshuaandrew8652@gmail.com,2318818094,110474,1 Month Adult,Monthly,2026-06-23,50.00,Statement,OK,1100.00
+Piper,Krzywosinski,krzywosinski28@gmail.com,231-203-5004,112874,1 Month Student (14-18),Monthly,2026-06-22,45.00,Statement,OK,498.00
+Grayden,Ratliff,saraheratliff@yahoo.com,2318384680,115610,1 Month Adult,Monthly,2026-07-06,50.00,Statement,OK,535.00
+Roy,Haworth,royohaworth@outlook.com,2314899629,114268,Check Draft Adult,Monthly,,45.00,Credit Card,OK,1670.00
+Brian,Pike,bpike1016@icloud.com,2313737021,115397,3 Months Adult,3 Month,2026-08-21,120.00,Credit Card,OK,575.00
+Chris,Black,cblack2015@icloud.com,6162556164,505865,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,1340.00
+Maximus,Ferrin,maxferrin17@gmail.com,310-694-2700,115249,1 Mo Military,Monthly,2026-07-04,40.00,Credit Card,OK,1222.00
+Jack,Levy,na46@example.com,231-330-3332,114649,1 Month Senior Citizen 60+,Monthly,2026-06-20,40.00,Statement,OK,1240.00
+Dom,Fantozzi,fantozzi18@gmail.com,231-758-2076,115547,Social District Service 1 yr,Social District,2027-05-08,320.00,Credit Card,OK,1335.00
+Julie,M'Crone,mmccrone@gmail.com,705-6271872,110538,1 Month Senior Citizen 60+,Monthly,2026-07-04,40.00,Statement,OK,640.00
+Rose,Fitzgerald,rosefitzgerald183@gmail.com,313-204-5264,110598,1 Year Senior Citizen 60 +,Annual,2026-09-24,320.00,Statement,OK,1230.00
+Dominic,Patrick,irishmike@hotmail.com,2318818067,115234,1 Month Student (14-18),Monthly,2026-06-27,45.00,Statement,OK,616.00
+Sage,Stuchell,sage@ex.com,2313734341,114182,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,410.00
+Mitchell,Gunn,gunmi@mail.gvsu.edu,8109656137,114519,6 Month Adult,6 Month,2026-09-22,210.00,Credit Card,OK,1399.00
+Levi,Greene,levigreen572@gmail.com,2314896363,114607,3 Months Adult,3 Month,2026-06-20,120.00,Credit Card,OK,550.00
+Brynne,Giallombardo,brygiallombardo@gmail.com,231-340-1700,112486,3 Months Adult,3 Month,2026-06-19,120.00,Credit Card,OK,680.00
+Miranda,Dubey,miranda.k.singler@gmail.com,989-350-7390,114810,Social District Service 3 mo,Social District,2026-07-20,96.00,Credit Card,OK,2060.00
+Michelle,Ball,michball@sbcglobal.net,2313489622,110689,1 Month Senior Citizen 60+,Monthly,2026-06-27,40.00,Statement,OK,1580.00
+Therese,Bujold,tmsb6602@gmail.com,9062829064,112052,Social District Service 3 mo,Social District,2026-08-19,100.00,Statement,OK,1450.00
+Barrett,Elliott,whistlingmoose@yahoo.com,231-330-6580,114191,3 Months Adult,3 Month,2026-08-03,120.00,Statement,OK,563.00
+Scotlyn,Brengman,srbrengman@gmail.com,5862023585,110621,3 Months Adult,3 Month,2026-06-24,120.00,Statement,OK,1660.00
+Caden,Hankins,2318815860caden@gmail.com,2318815860,112448,1 Month Student (14-18),Monthly,2026-07-03,45.00,Statement,OK,597.00
+Josh,Schiemann,josch2468@gmail.com,2313305350,110657,1 Year Adult,Annual,2027-02-22,400.00,Statement,OK,2096.00
+Max,Farris,maxfarris@gmail.com,631-605-1497,114551,3 Months Adult,3 Month,2026-07-27,120.00,Statement,OK,1475.00
+Nicholas,Petit,petit.nicholaspatrick@gmail.com,231-676-3653,114599,Check Draft Adult,Monthly,,45.00,Credit Card,OK,1769.00
+Melvin,Czechowski,mhczechow@aol.com,231-622-8814,110752,6 Month Senior Citizen 60 +,6 Month,2026-10-25,170.00,Statement,OK,1220.00
+Vladimir,Nagy,vladnagy@outlook.com,734-262-2557,110815,1 Month Student (14-18),Monthly,2026-06-30,45.00,Statement,OK,180.00
+Jack,Ellis,jackellis1416@gmail.com,989-390-4968,110817,1 Year Adult,Annual,2027-02-26,400.00,Statement,OK,1670.00
+Jessi,Kuhlman,jrsagner@mtu.edu,906-458-4150,110733,1 Year Adult,Annual,2027-01-21,400.00,Statement,OK,1280.00
+Stephen,Ball,stephen-associates@sbcglobal.net,2313489622,111446,1 Month Senior Citizen 60+,Monthly,2026-06-27,40.00,Statement,OK,1440.00
+Dezi,Plichta,sawyerpup5@hotmail.com,231-758-2919,115324,1 Month Student (14-18),Monthly,2026-07-07,45.00,Statement,OK,795.00
+Justin,Allen,allenj2384@gmail.com,5179271652,110879,3 Months Adult,3 Month,2026-07-07,120.00,Statement,OK,720.00
+Ryan,Carson,ryancarson19@gmail.com,231-657-8668,115298,Social District Svc 1 mo,Social District,2026-07-08,40.00,Credit Card,OK,1341.00
+Gavin,Clone-Wurtsmith,gavinator76@gmail.com,2318815262,112991,1 Month Adult,Monthly,2026-07-10,50.00,Credit Card,OK,1552.00
+Austen,Lobenherz,austenjl@gmail.com,231-675-4474,115269,3 Months Adult,3 Month,2026-08-16,120.00,Credit Card,OK,464.00
+Jamie,Thomas,jabelang@gmail.com,989-590-3835,114760,Check Draft Adult,Monthly,,45.00,Credit Card,OK,996.00
+Branden,Mansen,mansenb97@gmail.com,2313304383,115205,3 Months Adult,3 Month,2026-08-10,120.00,Credit Card,OK,2453.00
+Noah,Galer,noahgaler1818@gmail.com,989-306-1850,110850,1 Month Adult,Monthly,2026-07-15,50.00,Credit Card,OK,2244.00
+Nicole,Raciboski,raubos1@gmail.com,5179458500,110951,Check Draft Adult,Monthly,,45.00,Bank,OK,1781.00
+Mark,Banninger,mbanninger@hotmail.com,248-760-2070,110945,6 Month Adult,6 Month,2026-07-06,210.00,Statement,OK,1320.00
+Russell,Bolt,rustyrbolt@gmail.com,231-350-0470,114793,Social District Svc 1 mo,Social District,2026-07-05,40.00,Statement,OK,390.00
+Sam,Ingalls,samingalls@example.com,231-622-3333,110977,3 Month Student (14-18 yrs),3 Month,2026-07-07,110.00,Statement,OK,650.00
+Kurt,Carlson,krcalson21@gmail.com,8034069900,113507,3 Mo Military,3 Month,2026-09-02,100.00,Credit Card,OK,1250.00
+Laura,Browning,laurabrowning@yahoo.com,7349047546,110975,6 Month Adult,6 Month,2026-11-25,210.00,Statement,OK,840.00
+John,Browning III,jsbrowning3@yahoo.com,7347905101,110981,6 Month Adult,6 Month,2026-11-26,210.00,Statement,OK,840.00
+Doug,Buck,doug.buck@icloud.com,2313302269,113652,Social District Service 1 yr,Social District,2026-09-19,320.00,Statement,OK,1260.00
+Owen,Leist,oleist27@gmail.com,2318389771,114774,6 Month Adult,6 Month,2026-09-04,210.00,Credit Card,OK,1603.00
+Martin,Howard,martinhoward@icloud.com,3483281668,115368,3 Month Student (14-18 yrs),3 Month,2026-08-25,110.00,Credit Card,OK,1128.00
+Mike,Patrico,mikepatrico@gmail.com,5863227582,111011,6 Month Adult,6 Month,2026-11-16,210.00,Credit Card,OK,1470.00
+Dan,Patrico,jdpatrico42@gmail.com,5863227582,111062,6 Month Adult,6 Month,2026-11-16,210.00,Credit Card,OK,1470.00
+Michael,Williams,mikewilliams@chartermi.net,2313489455,111711,Social District Service 1 yr,Social District,2026-08-17,320.00,Statement,OK,1266.00
+Laira,Novenske,lairanovenske@gmail.com,2313730039,111128,3 Months Adult,3 Month,2026-08-12,120.00,Statement,OK,390.00
+Jacob,Sobczak,sobczakjacob975@gmail.com,231-330-1673,113901,3 Months Adult,3 Month,2026-08-12,120.00,Statement,OK,589.00
+Katelin,Cabana,katelincababa@gmail.com,231-258-7212,115537,3 Months Adult,3 Month,2026-07-31,120.00,Statement,OK,375.00
+Andrew,Stahl,deerslayerars@gmail.com,231-838-8669,111214,1 Year Student (14-18 yrs old),Annual,2027-01-21,360.00,Statement,OK,1085.00
+Greg,Reed,gregreed1125@gmail.com,6144032490,111787,6 Month Senior Citizen 60 +,6 Month,2026-12-09,170.00,Statement,OK,680.00
+Mark,Copertino,mcopertio@comcast.net,720-891-3450,112927,1 Month Senior Citizen 60+,Monthly,2026-07-08,40.00,Statement,OK,180.00
+Jane,Copertino,jcopertino@comcast.net,303-517-4389,112931,1 Month Senior Citizen 60+,Monthly,2026-07-08,40.00,Statement,OK,220.00
+Maksym,Malkowski,1213213@gmail.com,2318816549,505856,1 Year Student (14-18 yrs old),Annual,2027-03-10,320.00,Statement,OK,320.00
+Kole,Elizando,kole.elizando@gmai.com,8139570924,115552,3 Months Adult,3 Month,2026-08-07,120.00,Credit Card,OK,872.00
+Preston,Fisher,903739@northhmen.org,231-340-2386,114299,1 Month Student (14-18),Monthly,2026-06-28,45.00,Statement,OK,888.00
+Gabriel,Northington,902234@northmen.org,231-330-4653,115334,1 Month Student (14-18),Monthly,2026-07-10,45.00,Statement,OK,170.00
+Topper,Burgin,awinburgz@gmail.cpm,843-271-7495,111141,1 Mo Military,Monthly,2026-07-12,40.00,Statement,OK,120.00
+Ethan,Nantz,ethannentz@icloud.com,2313405167,111817,1 Year Adult,Annual,2026-11-24,400.00,Statement,OK,901.00
+Evan,Lawrence,evanjohn2255@gmail.com,2318388811,114336,Social District Service 6 mo,Social District,2026-07-06,168.00,Statement,OK,1182.00
+Kyle,Maddox,krmaddox@icloud.com,770-286-8781,115329,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,180.00
+Owen,Maddox,oomaddox7@icloud.com,770-286-8429,115325,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,180.00
+Ramsey,Baty,rbaty@umich.edu,6507148484,115258,3 Months Adult,3 Month,2026-09-12,120.00,Statement,OK,340.00
+Heather,Boening,hkahyee@gmail.com,2313733810,113429,6 Month Adult,6 Month,2026-08-23,210.00,Statement,OK,1050.00
+Jack,Collins,collinja2019@gmail.com,6164031842,115630,3 Months Adult,3 Month,2026-08-29,120.00,Statement,OK,240.00
+Christian,Reattoir,reattoir20@gmail.com,9064404550,112508,1 Mo Military,Monthly,2026-06-16,40.00,Credit Card,OK,1714.00
+Kyle,Smith,kylesmith@naexample.com,435-659-5405,115515,1 Month Senior Citizen 60+,Monthly,2026-07-15,40.00,Statement,OK,240.00
+David,Phillips,davemphillips@gmail.com,2318810092,115274,3 Months Adult,3 Month,2026-09-01,120.00,Statement,OK,270.00
+Austin,Corbin,austin02corb@gmail.com,9896194386,113657,3 Months Adult,3 Month,2026-08-31,120.00,Credit Card,OK,1404.00
+Kevin,Hurley,khurle3550@gmail.com,734-507-0324,111261,1 Year Senior Citizen 60 +,Annual,2027-05-20,320.00,Statement,OK,420.00
+K.C.,Smith,404kyle@gmail.com,70358566866,113672,1 Mo Military,Monthly,2026-07-07,40.00,Credit Card,OK,170.00
+Trevor,Barker,trevb10999@gmail.com,8104048746,113638,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,300.00
+Sean,Blaser,sblaser2007@gmail.com,98984307852,115237,1 Month Adult,Monthly,2026-06-29,50.00,Statement,OK,120.00
+Miles,Whyte,milesawhyte@gmail.com,2314899975,115595,1 Month Adult,Monthly,2026-06-17,50.00,Statement,OK,511.00
+Luke,Mikesell,lukemikesell56@gmail.com,2483033082,114009,1 Month Adult,Monthly,2026-06-29,50.00,Statement,OK,225.00
+Top,Kamnark,topkamn98@gmail.com,9899484653,112920,1 Month Adult,Monthly,2026-07-09,50.00,Statement,OK,1167.00
+Drew,White,chaos.coach@gmail.com,402-515-2692,114121,Social District Svc 1 mo,Social District,2026-07-15,40.00,Statement,OK,290.00
+Sigurd,Bjornson,ike3319@gmail.com,336-471-5822,114109,Check Draft Adult,Monthly,,45.00,Bank,OK,2380.00
+Robert,Murray,rmurray@empowerfin.com,7345466902,115228,3 Months Senior Citizen 60+,3 Month,2026-08-30,100.00,Statement,OK,300.00
+Austin,Wright,wright.ax.s561@gmail.com,2313300118,111457,Social District Svc 1 mo,Social District,2026-06-23,40.00,Bank,OK,451.00
+Savanna,Bellmer,savanna.bellmer@gmail.com,231-675-3221,115369,3 Months Adult,3 Month,2026-07-06,120.00,Statement,OK,890.00
+Andrew,Morton,andyc.m@gmail.com,608-220-8562,113795,1 Yr Military,Annual,2026-12-02,320.00,Statement,OK,610.00
+Laurence,Rife,laurence.rife@yahoo.com,7347471651,115401,1 Year Adult,Annual,2027-01-25,400.00,Statement,OK,1010.00
+Patrica,Allemon,pat.alleman1@gmail.com,313-477-3270,113135,6 Month Senior Citizen 60 +,6 Month,2026-08-11,170.00,Credit Card,OK,1055.00
+Thomas,Martin,tmartin8025@gmail.com,616-450-1344,114717,3 Months Adult,3 Month,2026-09-11,120.00,Credit Card,OK,380.00
+Steve,August,vegaspetoskey@gmail.com,2318386419,115243,3 Months Senior Citizen 60+,3 Month,2026-09-05,100.00,Statement,OK,440.00
+Peyton,Harmon,901721@northmen.org,2313309253,115530,Check Draft Adult,Monthly,,45.00,Credit Card,OK,130.00
+Nikki,Devitt,nikkidevitt@live.com,2318182228,111561,Social District Service 1 yr,Social District,2026-09-17,320.00,Credit Card,OK,1006.00
+Ayden,Burns,email@yahoo.com,2316221157,112951,1 Month Student (14-18),Monthly,2026-07-03,45.00,Statement,OK,265.00
+Scott,Ackerman,scottackerman@example.com,972-955-1154,112756,1 Month Senior Citizen 60+,Monthly,2026-06-25,40.00,Statement,OK,180.00
+Ryan,Donahoe,rdonahoe@gmail.com,509-554-6058,111484,6 Month Adult,6 Month,2026-07-27,210.00,Statement,OK,1160.00
+Aaron,Malton,taken4few@gmail.com,989-614-2495,115408,1 Month Adult,Monthly,2026-07-04,50.00,Credit Card,OK,1027.00
+Dana,Bennington,dlzulski3@hotmaill.com,2318813497,111580,Social District Service 1 yr,Social District,2027-01-18,320.00,Statement,OK,924.00
+Maria,Gonzalez,hello@kittygonzalez.com,2028122942,115292,6 Month Adult,6 Month,2026-12-08,210.00,Statement,OK,650.00
+Mckenna,Enloe,enlor.mckenna@gmail.com,3369478446,113257,Check Draft Adult,Monthly,,45.00,Credit Card,OK,1046.00
+Ryan,Sarita,rysars98@yahoo.com,3136568704,114422,1 Year Adult,Annual,2026-10-13,400.00,Statement,OK,850.00
+Cory,Guthrie,corygsynergy@yahoo.com,248-636-8538,111951,1 Year Adult,Annual,2027-03-22,400.00,Credit Card,OK,1410.00
+Adam,Roth,adamcorganroth@gmail.com,2694911811,114764,3 Months Adult,3 Month,2026-06-18,120.00,Credit Card,OK,300.00
+Nolan,Jarvis,nolanjarvis2@gmail.com,2313303904,115598,1 Month Student (14-18),Monthly,2026-06-25,45.00,Statement,OK,321.00
+Elijah,Young,elijahnyoung@icloud.com,2313300824,112887,1 Month Student (14-18),Monthly,2026-06-23,45.00,Statement,OK,930.00
+Michael,Delgado,michaeldelgado@live.com,2313732934,111773,1 Year Adult,Annual,2027-02-04,400.00,Statement,OK,1403.00
+Mackenzie,Arthur,arthur1mr2@cmich.edu,586-292-8587,114687,1 Year Adult,Annual,2026-12-16,400.00,Statement,OK,1220.00
+Angela,Oliver,aoliversmiles@gmail.com,231838175,115377,6 Month Adult,6 Month,2026-07-01,210.00,Statement,OK,520.00
+Katelyn,Goodrich,katelynswenson@gmail.com,231-676-3036,505843,Check Draft Adult,Monthly,,45.00,Credit Card,OK,1538.00
+Jadynne,Corey,jadynnecorey@gmail.com,231-203-4326,115430,Check Draft Adult,Monthly,,45.00,Credit Card,OK,678.00
+Hillary,Taylor,nateandhillarytaylor@att.net,2313303688,113094,1 Year Adult,Annual,2027-02-12,400.00,Statement,OK,1320.00
+Nathan,Taylor,ntaylor679@hotmail.com,2313421593,114847,1 Year Adult,Annual,2027-02-12,400.00,Statement,OK,1320.00
+Max,Brooks,brooksmax1@gmail.com,2488927872,113689,1 Year Adult,Annual,2026-12-17,400.00,Statement,OK,1210.00
+Courtney,Bilderbeck,cbilderbeck@yahoo.com,5866047373,114612,1 Year Adult,Annual,2026-10-19,400.00,Statement,OK,1000.00
+Peter,Morgridge,morgridge5@msu.edu,2318389969,112320,3 Months Adult,3 Month,2026-08-16,120.00,Statement,OK,1166.00
+Nick,Williams,islandnick21@gmail.com,2314596467,111973,Check Draft Adult,Monthly,,45.00,Bank,OK,1000.00
+Mary,Farrell,marydunfee@gmail.com,574-286-2449,112007,1 Year Senior Citizen 60 +,Annual,2027-04-06,320.00,Statement,OK,1060.00
+William,Farrell,md72enmd@gmail.com,574-286-2445,112020,1 Year Senior Citizen 60 +,Annual,2027-04-06,320.00,Statement,OK,1060.00
+Christine,Beehler,pencebee@yahoo.com,317-716-1851,112851,3 Months Senior Citizen 60+,3 Month,2026-07-19,100.00,Statement,OK,749.00
+Jerry,Christin,grchrist@mtu.edu,2316759929,111929,3 Months Adult,3 Month,2026-08-14,120.00,Statement,OK,700.00
+Ryan,Hallman,rhallman7900@gmail.com,231-838-5178,112076,1 Month Adult,Monthly,2026-07-10,50.00,Credit Card,OK,1367.00
+Addison,McGuiness,mcguinessaddison@gmail.com,231-373-0215,114837,1 Month Adult,Monthly,2026-06-23,50.00,Credit Card,OK,384.00
+Austin,Reinsmith,austinr@gmail.com,2313733842,115566,1 Month Adult,Monthly,2026-06-17,50.00,Statement,OK,100.00
+Chuck,Armstrong,charlessarm89@gmail.com,2699038888,115394,Social District Service 1 yr,Social District,2026-09-01,320.00,Credit Card,OK,1080.00
+Rick,Donahoe,rldonehoe@gmail.com,509-554-9149,115216,3 Months Senior Citizen 60+,3 Month,2026-07-11,100.00,Statement,OK,400.00
+Suzanne,Kanine,skanine@gmail.com,9899926558,112006,Social District Service 1 yr,Social District,2027-01-14,320.00,Statement,OK,1032.00
+Celeste,Chappell Bayer,ccjiujitsukid@gmail.com,6162079393,115294,3 Months Adult,3 Month,2026-09-09,120.00,Credit Card,OK,222.00
+Mike,Schuitema,mikeschuitema@gmail.com,231-493-1333,111960,Social District Service 6 mo,Social District,2026-10-22,168.00,Statement,OK,1044.00
+Lance,Stonehouse,lstonehouse@gmail.com,231-203-3522,115283,3 Months Adult,3 Month,2026-06-19,120.00,Statement,OK,568.00
+Dylan,Aukeman,dylanaukeman@gmail.com,2318818362,115331,3 Month Student (14-18 yrs),3 Month,2026-09-10,110.00,Statement,OK,465.00
+Emma,Bednar,emmabednar@gmail.com,336-681-8773,112104,Check Draft Adult,Monthly,,45.00,Bank,OK,1050.00
+Ayla,Bouschor,michelle8ner@gmail.com,9064407340,114337,6 Month Student (14-18),6 Month,2026-09-19,190.00,Statement,OK,1025.00
+Tristussy,Beltran,sowingliscense@icloud.com,2313306958,114768,3 Months Adult,3 Month,2026-08-02,120.00,Credit Card,OK,1078.00
+Oscar,Okerlund,o.okerlund@gmail.com,2313833015,114435,1 Month Adult,Monthly,2026-06-16,50.00,Statement,OK,855.00
+Elijah,Mleko,sonicmleko@gmail.com,2316318250,114647,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,406.00
+Hunter,Cronk,hunter8cake@gmail.com,2314979301,114035,Check Draft Adult,Monthly,2026-06-17,45.00,Credit Card,OK,225.00
+Melissa,Tuma,melissamtuma@gmail.com,9062509237,112122,Social District Service 3 mo,Social District,2026-08-01,96.00,Statement,OK,696.00
+Anna,Blair,annablair81@gmail.com,231-881-5244,114393,3 Months Adult,3 Month,2026-09-15,120.00,Statement,OK,1008.00
+Grant,Rose,grantrose503@gmail.com,2318388365,115717,6 Month Student (14-18),6 Month,2026-09-29,170.00,Credit Card,OK,610.00
+Franklin,Steinhoff,frankiesteinhoff@gmail.com,231-373-6632,113923,1 Month Student (14-18),Monthly,2026-06-22,45.00,Statement,OK,180.00
+Pat,Hutchens,hutchens.pat@gmail.com,2318380522,115339,3 Months Senior Citizen 60+,3 Month,2026-09-07,100.00,Credit Card,OK,940.00
+Paul,Heneks,paulheneks@gmail.com,586-482-7931,113345,3 Months Senior Citizen 60+,3 Month,2026-08-20,100.00,Statement,OK,980.00
+Kael,Lesky,karllesky@gmail.com,2314203474,112215,3 Months Adult,3 Month,2026-07-22,120.00,Statement,OK,878.00
+Addison,Shearer,addisonas@gmail.com,9897080739,114487,1 Year Adult,Annual,2026-08-13,400.00,Statement,OK,950.00
+Lucas,Giallombardo,domgiallombaro@gmail.com,2313302345,114529,3 Month Student (14-18 yrs),3 Month,2026-08-04,110.00,Statement,OK,415.00
+Ella,Giallombardo,domgialombardo@gmail.com,2313302345,114351,6 Month Student (14-18),6 Month,2026-10-22,190.00,Statement,OK,503.00
+Tom,Shehigian,upnorthnow@hotmail.com,269-274-3259,112273,6 Month Senior Citizen 60 +,6 Month,2026-09-23,170.00,Statement,OK,850.00
+Gabriel,Malace,malacegs@gmail.com,989-898-1684,114591,6 Month Adult,6 Month,2026-07-14,210.00,Statement,OK,990.00
+Bailey,Tinkcom,btinkcom002@gmail.com,2313732936,112883,Social District Service 3 mo,Social District,2026-09-10,100.00,Credit Card,OK,1100.00
+Collin,Townsend,collintxc22@gmail.com,919-690-9902,897365,3 Months Adult,3 Month,2026-07-24,120.00,Statement,OK,410.00
+Abriella,Goldsmith,abriellagoldsmith@example.com,231-758-4588,112247,3 Month Student (14-18 yrs),3 Month,2026-08-22,110.00,Statement,OK,310.00
+Samuel,Fry,samfry1149@gmail.com,231-330-0458,112731,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,644.00
+Samuel,Robbins,samuelrobbins@example.com,231-881-2188,113147,6 Month Adult,6 Month,2026-09-29,210.00,Statement,OK,730.00
+Alan,Bouschor,alanbouschor@hotmail.com,9064407630,113843,3 Months Adult,3 Month,2026-07-22,120.00,Statement,OK,1012.00
+Mason,Wilson,masewilson12@gmail.com,2316757333,112354,Social District Service 3 mo,Social District,2026-06-21,96.00,Statement,OK,596.00
+Corey,Bennington,cbennington@lssu.edu,2313301367,113723,Social District Service 3 mo,Social District,2026-09-04,100.00,Statement,OK,575.00
+Eric,Heater,ericheater234@gmail.com,2313733927,112357,Check Draft Adult,Monthly,,45.00,Bank,OK,1220.00
+Matthew,Stone,stonemat23@yahoo.com,248 408 1736,114830,6 Month Adult,6 Month,2026-10-24,210.00,Statement,OK,870.00
+Cameron,Vanatta,cvanatta764@gmail.com,5178971669,113253,1 Month Adult,Monthly,2026-07-02,50.00,Credit Card,OK,986.00
+Brandon,Elliott,brand_elliott23@icloud.com,8183002598,112871,1 Month Adult,Monthly,2026-07-06,50.00,Credit Card,OK,896.00
+John,Taylor,johntaylor3455@gmail.com,2314636904,115534,3 Months Adult,3 Month,2026-08-03,120.00,Credit Card,OK,493.00
+Garrett,Bouschor,gspirit70@gmail.com,4178502384,113589,3 Months Adult,3 Month,2026-07-22,120.00,Statement,OK,490.00
+Jason,Thompson,agent.j.styles@gmail.com,231-632-9773,114060,6 Month Adult,6 Month,2026-08-04,210.00,Statement,OK,975.00
+Robert,Wineman,rwineman3@gmail.com,248-255-1114,112414,6 Month Senior Citizen 60 +,6 Month,2026-11-01,170.00,Statement,OK,510.00
+Collin,Caporosso,caporosso.ca.s@gmail.com,231-881-6651,505880,1 Month Adult,Monthly,2026-06-17,50.00,Credit Card,OK,223.00
+Jayson,LaGrou,jaysonlagrou@gmail.com,248-606-5763,115520,3 Months Adult,3 Month,2026-09-11,120.00,Credit Card,OK,1529.00
+Hope,Wegmann,hopewegmann@gmail.com,231-881-1300,114805,3 Mo Military,3 Month,2026-08-05,100.00,Statement,OK,240.00
+Ben,Monshor,bmonshor@gmail.com,907-830-0303,112339,6 Month Adult,6 Month,2026-11-25,210.00,Statement,OK,1050.00
+Richard,Shoskey,shoskeyr@gmail.com,6166445261,112394,1 Year Adult,Annual,2026-12-13,400.00,Statement,OK,1060.00
+Katelyn,Kirsch,kirsch.katelyn.r@gmail.com,7206769859,112395,Moeller Aerospace 1-yr Membership,Other,2026-09-17,320.00,Statement,OK,512.00
+Chase,Melching,c.melching@outlook.com,3033356400,112446,Check Draft Adult,Monthly,2026-06-18,45.00,Credit Card,OK,85.00
+Waylon,Wanegeshik,wanegeshik16@gmail.com,2317584243,114235,3 Months Adult,3 Month,2026-07-14,120.00,Statement,OK,1069.00
+Dana,Cluckey,danacluckey@yahoo.com,517-881-4169,113920,6 Month Senior Citizen 60 +,6 Month,2026-11-10,170.00,Statement,OK,540.00
+Isaac,Stebelton,isaacstebelton09@gmail.com,231-340-6467,114674,Check Draft Student,Monthly,,35.00,Credit Card,OK,886.00
+Corbin,Grebe,corbgrebe@gmail.com,2318814713,113547,Social District Service 1 yr,Social District,2027-03-27,320.00,Credit Card,OK,885.00
+Rosemary,Hoffman,rosemaryl.hoffman@gmail.com,231-838-8629,115240,3 Months Adult,3 Month,2026-08-28,120.00,Statement,OK,290.00
+Liam,Nolan,liamnolan077@gmail.com,231-330-9921,115560,3 Months Adult,3 Month,2026-08-07,120.00,Statement,OK,407.00
+James,Holt,pmholt06@yahoo.com,231-758-2098,505864,1 Year Student (14-18 yrs old),Annual,2026-06-17,360.00,Statement,OK,720.00
+Jake,Stahl,deertracker2008@gmail.com,231-758-9893,114590,3 Month Student (14-18 yrs),3 Month,2026-09-03,110.00,Statement,OK,445.00
+Michael,Gordon,mdgordon@umichedu.com,7342235879,112622,3 Months Senior Citizen 60+,3 Month,2026-08-25,100.00,Credit Card,OK,240.00
+Alaina,Roush,roushala@msu.edu,2318385536,115631,1 Year Adult,Annual,2027-05-27,400.00,Credit Card,OK,500.00
+Mike,Hagan,mikeshagan@outlook.com,6162917685,114408,1 Year Senior Citizen 60 +,Annual,2027-06-15,320.00,Credit Card,OK,960.00
+Jay,Duggan,jduggan@example.com,706-424-5759,113721,3 Months Adult,3 Month,2026-08-31,120.00,Statement,OK,390.00
+Grant,Mikesell,gtm22971@gmail.com,248-303-1548,115279,1 Month Adult,Monthly,2026-07-04,50.00,Statement,OK,245.00
+Alexander,Keene,keeneal@gmail.com,2313483577,113801,3 Months Adult,3 Month,2026-07-09,120.00,Credit Card,OK,965.00
+Ayla,Shiels,ayla.shiels@gmail.com,231-330-8571,114608,3 Month Student (14-18 yrs),3 Month,2026-08-26,110.00,Statement,OK,555.00
+Robert,Yarger,bobby.yarger1@gmail.com,616-550-2125,113764,6 Month Adult,6 Month,2026-07-03,210.00,Statement,OK,840.00
+Luke,Washington,lukewashngton12345@gmail.com,231-622-3637,113655,3 Months Adult,3 Month,2026-08-04,120.00,Statement,OK,616.00
+Alex,Mason,modularcrafting@gmail.com,989-370-6475,115317,3 Months Adult,3 Month,2026-08-12,120.00,Credit Card,OK,580.00
+Gary,Pilnick,garyp@gmail.com,2692095971,115614,3 Months Adult,3 Month,2026-08-23,120.00,Statement,OK,314.00
+Helene,Pilnick,gpilnick@sbcglobal.net,2692095531,113732,3 Months Adult,3 Month,2026-08-25,120.00,Statement,OK,375.00
+Craig,Thornbury,ctbury@gmail.com,917-885-1932,112683,6 Month Adult,6 Month,2026-10-31,210.00,Statement,OK,360.00
+Jack,Robinson,jbn23csi@gmail.com,2313309298,115239,3 Month Student (14-18 yrs),3 Month,2026-08-28,110.00,Statement,OK,550.00
+Molly,Stebelton,stebeltonmolly@gmail.com,2313408898,505795,Check Draft Student,Monthly,,35.00,Credit Card,OK,635.00
+Robert,Perry,robperryofficial@gmail.com,616-914-9240,114508,1 Month Adult,Monthly,2026-06-29,50.00,Credit Card,OK,529.00
+Landon,Premo,landonpremo99@gmail.com,2318383833,115293,1 Month Adult,Monthly,2026-06-29,50.00,Statement,OK,634.00
+Kensington,McGuiness,kenziepie@gmail.com,231-373-4806,115379,Social District Svc 1 mo,Social District,2026-06-23,40.00,Statement,OK,392.00
+Robert,Pate,robertpate3@gmail.com,3838465808,114846,Social District Service 3 mo,Social District,2026-07-19,96.00,Statement,OK,304.00
+Jordan,Stark,jordanstarkll@icloud.com,231-838-8231,112768,1 Month Adult,Monthly,2026-07-02,50.00,Statement,OK,450.00
+Dwight,Kett,dwightdkett@gmail.com,630-334-6041,115238,6 Month Senior Citizen 60 +,6 Month,2026-11-26,170.00,Statement,OK,440.00
+Jennifer,Murphy,writerjennifermurphy@gmail.com,231-373-6412,112742,1 Year Adult,Annual,2026-11-12,400.00,Statement,OK,880.00
+Jack,Rasmassen,904626@example.com,231-838-2195,114606,1 Year Student (14-18 yrs old),Annual,2027-04-27,360.00,Statement,OK,660.00
+Julia,Sherman,juliaasherm@gmail.com,231-350-3029,112958,Check Draft Adult,Monthly,,45.00,Credit Card,OK,845.00
+Kaiden,Boyce,kaidenboyce@gmail.com,5175259673,115554,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,215.00
+Brian,Tang,briantang@example.com,347-556-2589,112922,3 Month Student (14-18 yrs),3 Month,2026-07-14,110.00,Statement,OK,375.00
+Chase,Ledingham,ledinghamchase@gmail.com,2317582443,114658,3 Months Adult,3 Month,2026-09-03,120.00,Statement,OK,370.00
+Cole,Willison,willisoncrs@example.com,231-622-1760,505895,3 Month Student (14-18 yrs),3 Month,2026-06-21,110.00,Statement,OK,310.00
+Johnny,Cross,johnnicro@icloud.com,231-373-3408,114809,3 Month Student (14-18 yrs),3 Month,2026-08-05,110.00,Statement,OK,746.00
+Ava,Zyble,azyble4@gmail.com,231-838-7098,115280,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,577.00
+Matt,Davis,rmattdavis12@gmail.com,9899485984,112729,1 Year Senior Citizen 60 +,Annual,2027-03-22,320.00,Statement,OK,855.00
+Seth,Beardsley,tim@beardsleycpafirm.com,2312541028,115558,3 Month Student (14-18 yrs),3 Month,2026-08-11,110.00,Statement,OK,310.00
+Levi,Beardsley,levi.beardsley08@gmail.com,2319392099,112978,3 Month Student (14-18 yrs),3 Month,2026-09-05,110.00,Statement,OK,555.00
+Wyatt,Zuniga,wyattzuniga16@gmail.com,231-758-4392,114439,3 Months Adult,3 Month,2026-08-19,120.00,Credit Card,OK,853.00
+Dakota,Kortz,dakotakortz44@icloud.com,231-420-6434,115543,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,210.00
+Alexa,Thibault,alexa.t.thibault@wmich.edu,906-430-8163,112730,6 Month Adult,6 Month,2026-10-08,210.00,Statement,OK,310.00
+Christopher,Baker,cbaker1002@gmail.com,7344761483,115346,1 Year Adult,Annual,2027-03-03,400.00,Statement,OK,968.00
+Ron,Orlarey,rolarey@gmail.com,2313732112,113033,1 Month Adult,Monthly,2026-07-13,50.00,Credit Card,OK,328.00
+Shannon,Kelsey,shaeshaek123@gmail.com,8109646200,113030,Social District Service 1 yr,Social District,2027-04-12,320.00,Statement,OK,824.00
+Buz,Berson,buzberson@gmail.com,9416281883,112984,3 Months Senior Citizen 60+,3 Month,2026-09-01,100.00,Statement,OK,240.00
+Billie Sue,Burby,bswarden1974@gmail.com,9079788281,115597,3 Months Adult,3 Month,2026-08-31,120.00,Statement,OK,540.00
+Juila,Adams,juilaadams3535@gmail.com,8104445052,114839,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,840.00
+Miya,Plichta,miyana@example.com,231-330-2665,115248,1 Month Student (14-18),Monthly,2026-07-10,45.00,Statement,OK,235.00
+Nash,McGuiness,jaimelmcguiness@gmail.com,2313730061,114782,1 Month Student (14-18),Monthly,2026-06-17,45.00,Statement,OK,317.00
+Cristin,Bowling,cristin.stubbs@gmail.com,404-550-5681,113167,Social District Service 6 mo,Social District,2026-10-17,168.00,Statement,OK,672.00
+Jesse,Raleigh,j@jraleigh.com,2318810326,112807,Social District Service 6 mo,Social District,2026-11-29,168.00,Credit Card,OK,504.00
+Greg,Peabody,gregpeabody@example.com,313-580-3848,112986,1 Yr Military,Annual,2026-10-31,320.00,Credit Card,OK,690.00
+Gary,Greenwell,gdgreeenwell@att.net,2313300074,112917,6 Month Senior Citizen 60 +,6 Month,2026-11-02,170.00,Statement,OK,680.00
+Cassandra,Phillips,cassandra@studiomccallum.com,406-314-7411,114437,6 Month Adult,6 Month,2026-08-21,210.00,Statement,OK,685.00
+Adam,Cross,adthocro@gmail.com,2313734171,113557,3 Months Adult,3 Month,2026-08-17,120.00,Statement,OK,373.00
+Elijah,Rindfusz,elijahrindfusz@gmail.com,2319399050,114803,3 Month Student (14-18 yrs),3 Month,2026-08-11,110.00,Statement,OK,455.00
+Kali,VanDreumel,kalimv91@gmail.com,2318381200,115465,Check Draft Adult,Monthly,,45.00,Bank,OK,1373.00
+Mikayla,Whitcomb,mikayla.whitcomb@gmail.com,2313308356,113154,Social District Service 3 mo,Social District,2026-07-27,100.00,Credit Card,OK,608.00
+Charles,Olson,ginamaria@example.com,231-340-3809,114560,6 Month Student (14-18),6 Month,2026-08-10,190.00,Statement,OK,410.00
+Evan,Crowe,evancrowe1@gmail.com,269-509-1483,112898,1 Year Adult,Annual,2026-10-29,400.00,Statement,OK,800.00
+Steven,Wallace,scwallace34@gmail.com,2318818246,112834,Check Draft Adult,Monthly,,45.00,Bank,OK,905.00
+Cassandra,Musser,cassandra_musser@yahoo.com,5173208958,113174,Check Draft Adult,Monthly,,45.00,Credit Card,OK,900.00
+John,Lennon,lenno1jp@gmail.com,989-370-0751,115626,Social District Service 3 mo,Social District,2026-08-29,100.00,Statement,OK,640.00
+Ben,Wolf,benjaminwolf738@gmail.com,2036910850,114852,3 Months Adult,3 Month,2026-07-17,120.00,Statement,OK,520.00
+Malcolm,Goldstein,malcolmgoldstein@example.com,516-557-9926,114675,1 Month Adult,Monthly,2026-06-26,50.00,Statement,OK,410.00
+Jonathan,Whitcomb,jcwhitcomb94@gmail.com,2313303205,112837,1 Month Adult,Monthly,2026-06-30,50.00,Statement,OK,680.00
+J,Velasquez,jvelasquez@example.com,989-992-9649,115286,Check Draft Adult,Monthly,2026-07-09,45.00,Statement,OK,165.00
+Sharnee,Mead,sharneemead@gmail.com,734-834-5497,112878,1 Year Adult,Annual,2026-11-30,400.00,Statement,OK,800.00
+John,Powell,johnna@example.com,847-338-9010,114656,6 Month Adult,6 Month,2026-11-05,210.00,Statement,OK,700.00
+Zach,Goodwin,zackgoodwill@gmail.com,231-881-1343,113248,3 Months Adult,3 Month,2026-08-03,120.00,Statement,OK,720.00
+Clark,Bliss,n/ahiandbye@gmail.com,248-760-2508,115285,3 Month Student (14-18 yrs),3 Month,2026-09-15,110.00,Statement,OK,660.00
+Sophia,Drinkall,sophiadrinkall07@gmail.com,231 330 8991,113444,3 Month Student (14-18 yrs),3 Month,2026-07-12,110.00,Statement,OK,445.00
+Abigail,Jordan,abigailmwalz@gmail.com,231-676-8039,114454,Check Draft Adult,Monthly,,45.00,Credit Card,OK,830.00
+Jesse,Firman,jessebob2019@icloud.com,2312540499,115581,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,690.00
+Nick,Gietzen,ngietz@gmail.com,231-622-3203,113276,3 Months Adult,3 Month,2026-07-13,120.00,Statement,OK,355.00
+Zoie,Weber,zoiemweb@icloud.com,810-919-7475,113064,3 Months Adult,3 Month,2026-07-05,120.00,Statement,OK,556.00
+Andrew,Rozema,ajrozema@gmail.com,616-215-8668,113261,Social District Service 1 yr,Social District,2026-12-31,320.00,Statement,OK,675.00
+William,Daniel,kdanielssfx@gmail.com,616-648-7655,115278,3 Month Student (14-18 yrs),3 Month,2026-09-02,110.00,Statement,OK,220.00
+Austin,Johnson,ajohnson4@adrian.edu,5174037598,115363,6 Month Adult,6 Month,2026-07-05,210.00,Statement,OK,420.00
+Paul,Oliver,pauljoliver03@gmail.com,3134925502,113337,1 Year Adult,Annual,2027-06-11,400.00,Statement,OK,911.00
+Isabelle,Boehmer,izzykathryne@gmail.com,231 373 2636,115373,Social District Svc 1 mo,Social District,2026-06-20,40.00,Statement,OK,244.00
+Andrew,Tompkins,andtomp30@gmail.com,231 373 0850,115380,Social District Svc 1 mo,Social District,2026-06-20,40.00,Statement,OK,266.00
+Eli,Brown,elliot.s.brown@icloud.com,9079177290,114787,1 Month Student (14-18),Monthly,2026-07-10,45.00,Credit Card,OK,691.00
+Aaron,Decker,adecker_83@gmail.com,734-255-5392,113613,Social District Service 3 mo,Social District,2026-07-12,100.00,Statement,OK,640.00
+Anthony,Sutherland,anthonysutherland30@gmail.com,231-445-2021,113096,1 Month Adult,Monthly,2026-07-14,50.00,Credit Card,OK,499.00
+Kathleen,Davis,kadavis53@gmail.com,989-941-1978,113083,6 Month Senior Citizen 60 +,6 Month,2026-07-19,170.00,Statement,OK,570.00
+Oliver,Wilhelm,oliverwilheim@outlook.com,2318387688,114405,6 Month Adult,6 Month,2026-06-27,210.00,Statement,OK,450.00
+Jonathan,Milliron,jomilliron67@gmail.com,231-838-6022,115594,Moeller Aerospace 1 mo,Other,2026-06-25,40.00,Statement,OK,483.00
+Olivia,Vanelslander,vanelsloli2@gmail.com,313-806-,113439,6 Month Adult,6 Month,2026-09-12,210.00,Statement,OK,450.00
+Jack,Dumas,elitehighlights00@gmail.com,2313408849,115287,1 Month Student (14-18),Monthly,2026-07-08,45.00,Statement,OK,483.00
+Katoni,Rickley,katonirickley@gmail.com,231-330-2127,113466,Check Draft Adult,Monthly,,45.00,Credit Card,OK,818.00
+Jayden,Stolarski,jstolarski5@gmail.com,231-758-4424,505847,1 Month Student (14-18),Monthly,2026-07-08,45.00,Statement,OK,492.00
+Mary,McWatters,noemaillisted@gmail.com,231 881 2034,113422,Social District Service 1 yr,Social District,2027-01-08,320.00,Statement,OK,638.00
+Greg,Fuller,gergoryalanfuller@gmail.com,616 799 3236,113454,Social District Service 1 yr,Social District,2027-01-06,320.00,Statement,OK,638.00
+Abigail,Woelfert,abbylou2006@gmail.com,231-459-6364,113450,3 Months Adult,3 Month,2026-08-10,120.00,Credit Card,OK,420.00
+Vivian,Hartman,vivanbrh7675@outlook.com,231 881 4306,113504,3 Months Adult,3 Month,2026-08-03,120.00,Statement,OK,340.00
+Truett,Kruger,trudog168@gmail.com,231 489 9033,113503,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,325.00
+Gabriel,Kruger,gkruger2k20@gmail.com,231 758 6097,113502,6 Month Adult,6 Month,2026-07-05,210.00,Statement,OK,570.00
+Roldan,Grace,roldan.a.grace@mail.com,231-489-6565,114741,3 Months Adult,3 Month,2026-07-14,120.00,Statement,OK,370.00
+Hunter,Mattson,hunterjacobmattson@icloud.com,231 373 4166,115688,1 Year Adult,Annual,2027-05-20,400.00,Credit Card,OK,495.00
+Seth,Raikko,sethraikko@gmail.com,231 373 4812,114473,1 Month Adult,Monthly,2026-06-27,50.00,Statement,OK,500.00
+Madeline,Pacola,pacolamaddie@gmail.com,2313881308,113529,1 Month Student (14-18),Monthly,2026-07-10,45.00,Statement,OK,562.00
+Jacob,Anderson,andejake14@gmail.com,231 838 1370,113509,Check Draft Adult,Monthly,,45.00,Credit Card,OK,675.00
+Jason,Wiser,info@webinationstation.com,231-373-6566,113553,3 Months Adult,3 Month,2026-08-03,120.00,Statement,OK,220.00
+Dallas,Gibson,gibson14@hotmail.com,989 404 0268,114625,Check Draft Adult,Monthly,,45.00,Credit Card,OK,635.00
+Lydia,Hindle,lydiahindle@example.com,231-675-2274,113561,1 Month Adult,Monthly,2026-06-25,50.00,Credit Card,OK,696.00
+Sawyer,Pacola,903811@northmen.org,231 253 7359,114237,6 Month Student (14-18),6 Month,2026-06-19,190.00,Statement,OK,370.00
+Brody,Saxton,brodysaxton@outlook.com,231-622-3704,115584,1 Month Student (14-18),Monthly,2026-06-17,45.00,Statement,OK,135.00
+Andrew,Slater,andrew_slater13@yahoo.com,231-881-4838,114739,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,250.00
+Nelly,Thompson,nellyt@example.com,231-632-9773,113566,3 Months Adult,3 Month,2026-07-22,120.00,Statement,OK,520.00
+Colt,forbes,marjarce.forbes@gmail.com,231 254 0990,113611,Check Draft Student,Monthly,,35.00,Credit Card,OK,490.00
+Adam,Merritt,acmerrittof@gmail.com,231 489 9110,115242,1 Month Adult,Monthly,2026-07-02,50.00,Statement,OK,150.00
+Karen,Wooster,kawooste@gmail.com,517-888-3335,113916,1 Month Senior Citizen 60+,Monthly,2026-06-19,40.00,Statement,OK,180.00
+Richard,Wooster,rkwooster@gmail.com,517-930-0033,113918,1 Month Senior Citizen 60+,Monthly,2026-06-19,40.00,Statement,OK,180.00
+Simone,Kozminski,simonekozminski@gmail.com,231-675-9528,113913,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,275.00
+Robert,Hammond,robhammond101@yahoo.com,231-387-7271,113804,3 Months Adult,3 Month,2026-08-15,120.00,Credit Card,OK,1223.00
+Joshua,Hoffman,joshuahoffman70@gmail.com,2484108836,113563,3 Months Adult,3 Month,2026-08-15,120.00,Statement,OK,240.00
+Jackson,Kulbieda,jacksonkulbieda@gmail.com,2313736494,115526,1 Month Adult,Monthly,2026-07-04,50.00,Statement,OK,220.00
+Corin,Paulus,corin@paulusfam.com,231 758 9223,115579,3 Months Adult,3 Month,2026-08-14,120.00,Statement,OK,230.00
+Hanno,Oberholzer,hannozer@gmail.com,561 962 5702,113736,3 Months Adult,3 Month,2026-08-14,120.00,Statement,OK,290.00
+Nikolina,Stolnik,stolnikolina20@gmail.com,561 774 1119,113737,3 Months Adult,3 Month,2026-08-14,120.00,Statement,OK,290.00
+Paul,Jooste,pjoste2@gmail.com,561 836 0377,113738,6 Month Adult,6 Month,2026-11-14,210.00,Statement,OK,420.00
+John,Jenney,jdjenney980@gmail.com,248 961 2460,113729,1 Month Adult,Monthly,2026-06-26,50.00,Statement,OK,100.00
+Gary,Druskovich,gdrusk@sbcglobal.net,2695016964,115531,6 Month Senior Citizen 60 +,6 Month,2026-10-31,170.00,Statement,OK,340.00
+Kristian,Rariden,kristianrariden@gmail.com,231-550-6200,113730,3 Months Senior Citizen 60+,3 Month,2026-09-03,100.00,Statement,OK,530.00
+Brandie,Rariden,bmrariden@hotmail.com,719-661-0202,113953,6 Month Adult,6 Month,2026-08-10,210.00,Statement,OK,619.00
+Jacob,Maltby,jacobjohn317@yahoo.com,2313402458,113963,6 Month Adult,6 Month,2026-07-27,210.00,Statement,OK,640.00
+Brett,Brower,brettbrower_22@gmail.com,231-387-5037,113975,1 Year Student (14-18 yrs old),Annual,2027-05-25,360.00,Statement,OK,515.00
+Abram,Looy,abramspam20@gmail.com,2312878958,113936,3 Months Adult,3 Month,2026-08-22,120.00,Statement,OK,290.00
+Gracie,Sanford,gracies@glaa.net,2313736440,115262,3 Month Student (14-18 yrs),3 Month,2026-08-31,110.00,Statement,OK,220.00
+Madison,Rozema,madbarshaw5@gmail.com,616 610 6183,113807,1 Year Adult,Annual,2026-12-31,400.00,Statement,OK,690.00
+Shawn,Osborne,shawnmosborne@outlook.com,231-838-0949,113793,6 Month Adult,6 Month,2026-11-06,210.00,Statement,OK,480.00
+Steven,Butwell,bcsteven@me.com,2314587371,113790,Social District Service 3 mo,Social District,2026-09-05,100.00,Credit Card,OK,500.00
+Collin,Brantly,collinwbrantly@gmail.com,231-373-8208,113964,3 Months Adult,3 Month,2026-08-11,120.00,Statement,OK,280.00
+Andrew,Wheatley,andrewjwheatley2194@gmail.com,2313736446,115265,1 Year Student (14-18 yrs old),Annual,2026-09-03,360.00,Statement,OK,483.00
+Henry,Dundon,henryjdundon@gmail.com,2313738701,114597,3 Month Student (14-18 yrs),3 Month,2026-07-06,110.00,Credit Card,OK,678.00
+Tom,Jeffers,tom.jeffers3659@gmail.com,6513564942,112854,6 Month Adult,6 Month,2026-11-06,210.00,Statement,OK,420.00
+Canter,Schloppi,cschloppi14@gmail.com,2318818538,115233,1 Month Student (14-18),Monthly,2026-06-29,45.00,Statement,OK,90.00
+Corrine,Harrison,sthrosegirl@gmail.com,248 632 2149,113772,3 Months Adult,3 Month,2026-09-02,120.00,Statement,OK,327.00
+Molly,Firman,mollyfirman@icloud.com,231-439-5067,115345,3 Month Student (14-18 yrs),3 Month,2026-08-10,110.00,Statement,OK,420.00
+Michael,Walstrom,m.walstrom@me.com,561-699-4463,113771,3 Months Adult,3 Month,2026-09-07,120.00,Statement,OK,240.00
+Grace,Lancaster,gracelancaster610@gmail.com,2314979891,114807,3 Months Adult,3 Month,2026-08-11,120.00,Statement,OK,522.00
+Destino,Gordon,destinogordon@icloud.com,2318810950,115672,1 Month Student (14-18),Monthly,2026-06-18,45.00,Statement,OK,370.00
+Nathan,Walton,nwalton5326@gmail.com,419 252 0842,114116,6 Month Adult,6 Month,2026-12-09,210.00,Statement,OK,630.00
+Thomas,Carroll,tcarroll0821@gmal.com,248-579-7066,115433,1 Mo Military,Monthly,2026-07-05,40.00,Statement,OK,470.00
+Michael,Savarino,msavarinozz@gmail.com,7342764784,115259,1 Month Adult,Monthly,2026-07-13,50.00,Statement,OK,145.00
+Nicolas,Quenaudon,quenaudon.40@gmail.com,248-807-4740,113849,3 Months Adult,3 Month,2026-08-28,120.00,Statement,OK,270.00
+Joel,Donoghue,jdonoghue@gmail.com,312-799-9763,115260,1 Month Adult,Monthly,2026-07-13,50.00,Statement,OK,100.00
+Dean,Schumann,magstar9999@aol.com,239-471-5065,115267,3 Months Senior Citizen 60+,3 Month,2026-09-01,100.00,Statement,OK,260.00
+Paul,Bachleda,pbachleda1965@gmail.com,989-284-9893,113661,6 Month Senior Citizen 60 +,6 Month,2026-12-10,170.00,Statement,OK,440.00
+Russell,Yardley,yardleygorg@gmail.com,2318817527,114784,Check Draft Adult,Monthly,,45.00,Credit Card,OK,180.00
+Landon,Lancaster,landonmark1@iclound.com,231-838-6809,115659,3 Month Student (14-18 yrs),3 Month,2026-07-12,110.00,Statement,OK,310.00
+John,Deyo,johnhenrydeyo@gmail.com,773 812 9274,114016,1 Month Student (14-18),Monthly,2026-07-12,45.00,Statement,OK,180.00
+Hunter,Goss,hunterjgoss@gmail.com,231 497 0839,113981,Check Draft Adult,Monthly,,45.00,Credit Card,OK,540.00
+Aaron,Sowles,aaronsowles13@gmail.com,231-373-7428,113989,6 Month Student (14-18),6 Month,2026-07-27,190.00,Statement,OK,415.00
+Martinique,Rowden,mnrowden@gmail.com,661312 2105,114027,Check Draft Adult,Monthly,,45.00,Credit Card,OK,545.00
+Joseph,Lunsford,josephne@example.com,231-373-9952,115232,1 Mo Military,Monthly,2026-06-21,40.00,Statement,OK,314.00
+Garrett,Lansing,gplansing30@gmail.com,4145440478,115636,1 Month Student (14-18),Monthly,2026-06-26,45.00,Statement,OK,240.00
+Karisa,Breithaupt,karisabo121@gmail.com,231 203 5329,115273,6 Month Student (14-18),6 Month,2026-10-12,190.00,Statement,OK,410.00
+Brian,Rezny,rezny@msn.com,630-240-5238,114068,3 Months Senior Citizen 60+,3 Month,2026-08-31,100.00,Statement,OK,220.00
+Linda,Rezny,lindarezny69@msn.com,630-699-7497,114065,3 Months Senior Citizen 60+,3 Month,2026-08-31,100.00,Statement,OK,200.00
+Brittany,Chojnacki,blchojnac@gmail.com,9892556760,113714,3 Months Adult,3 Month,2026-08-16,120.00,Statement,OK,240.00
+Samuer,Nemec,samnemec21@gmail.com,2318388251,113710,3 Month Student (14-18 yrs),3 Month,2026-07-13,110.00,Statement,OK,420.00
+Taylor,Keiswetter,tkeiswetter@outlook.com,2314878898,113706,3 Months Adult,3 Month,2026-08-25,120.00,Statement,OK,365.00
+Chris,Keiswetter,cpkeiswetter@gmail.com,231 838 4133,114073,3 Month Student (14-18 yrs),3 Month,2026-08-26,110.00,Statement,OK,358.00
+Alyssa,May,alyssamay1123@gmail.com,6163212337,113703,Check Draft Adult,Monthly,,45.00,Credit Card,OK,540.00
+Taylor,Goodmansen,taylorgoodmansen@gmail.com,2313733869,115553,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,280.00
+Faith,Laskowski,faithlaskowski@yahoo.com,231-487-8861,114126,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,150.00
+William,Lang,collinporter34@gmail.com,2313736329,114723,1 Month Adult,Monthly,2026-07-10,50.00,Statement,OK,463.00
+Joanne,Finch,jhfinch1@gmail.com,919-747-1935,858361,3 Months Senior Citizen 60+,3 Month,2026-09-10,100.00,Statement,OK,140.00
+Charles,Finch,charlesfinch5@example.com,984-400-2441,866101,3 Months Senior Citizen 60+,3 Month,2026-09-10,100.00,Statement,OK,140.00
+Matt,Chiles,mattchiles32@gmail.com,231 330 2652,115715,1 Month Adult,Monthly,2026-07-13,50.00,Statement,OK,305.00
+Elana,Naganashe,elananicole12@gmail.com,231 881 2123,114736,Social District Svc 1 mo,Social District,2026-06-20,40.00,Statement,OK,190.00
+Bennett,Fordney,bennett614@outlook.com,843-847-4365,115229,1 Month Adult,Monthly,2026-06-30,50.00,Statement,OK,106.00
+Mickey,Athan,ibpr0f3@gmail.com,231-330-0283,114274,Social District Svc 1 mo,Social District,2026-06-17,40.00,Statement,OK,450.00
+Trent,Black,tblack0750@icloud.com,231-330-0228,115291,1 Month Adult,Monthly,2026-07-08,50.00,Statement,OK,315.00
+Bradley,Gay,bradalexg@gmail.com,2313733337,115698,3 Mo Military,3 Month,2026-07-07,100.00,Statement,OK,380.00
+John,Cannon,johncannon2053@gmail.com,231 330 4953,114312,3 Months Senior Citizen 60+,3 Month,2026-07-20,100.00,Statement,OK,276.00
+Isabella,Steinhoff,steinhoffalexader@example.com,231-622-1145,115619,1 Month Student (14-18),Monthly,2026-06-22,45.00,Statement,OK,90.00
+Tiffany,George,tifsynergy@yahoo.com,248-941-4296,114304,1 Year Adult,Annual,2026-07-30,400.00,Statement,OK,400.00
+Nicholas,Petramale,npetramale1225@gmail.com,845-685-4419,115337,Check Draft Adult,Monthly,,45.00,Credit Card,OK,540.00
+Carson,Glatz,carsonglatz@gmail.com,704-962-4587,114331,3 Months Adult,3 Month,2026-06-21,120.00,Statement,OK,360.00
+Mike,Woodward,milo100122@gmail.com,303-250-7335,115612,6 Mo Military,6 Month,2026-11-22,170.00,Statement,OK,270.00
+Aaron,Fritzsche,,231-838-5558,114289,1 Month Adult,Monthly,2026-06-28,50.00,Statement,OK,383.00
+Denise,Cecilia,,906-203-5238,114492,1 Month Adult,Monthly,2026-06-19,50.00,Credit Card,OK,475.00
+Dan,Wreitzer,danwreitzer2715@gmail.com,7345452137,114305,3 Months Adult,3 Month,2026-09-04,120.00,Statement,OK,480.00
+Rob,Fleet,rob.merde@gmail.con,231-350-0346,115706,3 Months Adult,3 Month,2026-06-28,120.00,Statement,OK,240.00
+Martin,Vicente,martinvicenete@example.com,808-232-5831,115507,Check Draft Adult,Monthly,,45.00,Credit Card,OK,335.00
+Russ,Schlehuber,russ.schlehuber@gmail.com,231-622-1604,114497,1 Yr Military,Annual,2026-08-27,320.00,Statement,OK,320.00
+Ethan,Shelton,camokomodo@gmail.com,2313736391,114333,3 Month Student (14-18 yrs),3 Month,2026-09-06,110.00,Statement,OK,410.00
+Laureen,Lowe,ms.laureenlowe@gmail.com,321-419-4767,115603,6 Month Senior Citizen 60 +,6 Month,2026-11-22,170.00,Statement,OK,210.00
+Laura,Baloun,,330-704-8692,114402,3 Months Senior Citizen 60+,3 Month,2026-09-02,100.00,Statement,OK,360.00
+Nevaeh,Leonard,vachsky810@gmail.com,231-622-2746,114410,3 Months Adult,3 Month,2026-07-07,120.00,Statement,OK,265.00
+Declan,McNulty,,231-622-3997,114385,3 Months Adult,3 Month,2026-06-22,120.00,Statement,OK,360.00
+John,Shafer,john@shaferdesign.net,9376039504,114436,3 Months Adult,3 Month,2026-07-06,120.00,Statement,OK,320.00
+Austen,Bates,austen1215@gmail.com,810-923-1334,114292,3 Months Adult,3 Month,2026-08-18,120.00,Statement,OK,170.00
+Ian,Gillette,ijgillette@hotmail.com,989-345-1878,114509,1 Month Adult,Monthly,2026-06-19,50.00,Statement,OK,400.00
+Michael,Kingsley,,313-820-6442,114458,1 Month Adult,Monthly,2026-06-30,50.00,Statement,OK,400.00
+Glenn,Planck,,231-675-2302,114460,1 Yr Military,Annual,2026-09-30,320.00,Statement,OK,320.00
+Michael,Harrington,na2@gmail.com,2313200662,114775,6 Month Student (14-18),6 Month,2026-09-09,170.00,Statement,OK,110.00
+Doug,Rieck Jr.,direckpt45@gmail.com,517-894-3496,114459,3 Months Adult,3 Month,2026-07-09,120.00,Statement,OK,360.00
+Jonathan,Price,carfloyd24@gmail.com,2316758230,115271,Social District Service 3 mo,Social District,2026-08-12,100.00,Statement,OK,350.00
+Katie,Alstott,kalstott3@gmail.com,2314451636,114563,1 Year Adult,Annual,2027-05-17,400.00,Credit Card,OK,766.00
+Roberto,Ruiz,,9566508779,115585,1 Month Adult,Monthly,2026-07-09,50.00,Statement,OK,350.00
+William,Mertem,,6128075686,114592,3 Mo Military,3 Month,2026-06-29,100.00,Statement,OK,225.00
+Michael,Shank,shankm1981@gmail.com,2313308318,114587,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,240.00
+Christa,Rensel,therensels@gmail.com,989-928-9553,114384,1 Year Adult,Annual,2027-05-04,400.00,Statement,OK,640.00
+Jordan,Shamion,jshamion@gmail.com,9062849605,114430,6 Month Adult,6 Month,2026-07-01,210.00,Statement,OK,260.00
+Adam,Vucelich,adamvucelich@hotmail.com,865-348-4069,114557,1 Year Adult,Annual,2027-05-05,400.00,Statement,OK,610.00
+Mikayla,Oppermann,mikeayla2242@gmail.com,2318817062,114559,Check Draft Adult,Monthly,,45.00,Credit Card,OK,366.00
+Caitlin,Doyle,cmdoyle00@gmail.com,6169141067,114640,Social District Service 3 mo,Social District,2026-08-01,96.00,Statement,OK,286.00
+Wesly,Wilson,roughstuffboi@gmail.com,2318387087,114623,6 Month Adult,6 Month,2026-08-22,210.00,Statement,OK,330.00
+Ty,Kowalski,tykowaski4@gmail.com,313-912-9010,115227,3 Months Adult,3 Month,2026-08-26,120.00,Statement,OK,240.00
+Angelo,Allen,angelodomdom@gmail.com,231-373-2274,114465,1 Month Adult,Monthly,2026-07-07,50.00,Statement,OK,300.00
+Josh,Erhart,erhartgators@gmail.com,423-313-5223,114835,3 Months Adult,3 Month,2026-09-11,120.00,Statement,OK,454.00
+Sarah,Anderson,,906-360-4414,115551,3 Months Senior Citizen 60+,3 Month,2026-09-02,100.00,Statement,OK,270.00
+Drake,Flett,drakeflett96@gmail.com,5173042984,114646,3 Months Adult,3 Month,2026-08-12,120.00,Statement,OK,549.00
+Maryah,Burns,maryahburns.11@gmail.com,231-330-9403,114175,1 Month Student (14-18),Monthly,2026-07-03,45.00,Statement,OK,155.00
+Christian,King,master.c.king@gmail.com,231 373 8855,115577,1 Year Student (14-18 yrs old),Annual,2027-04-05,360.00,Statement,OK,515.00
+Hiilani,Nahinu,,,114170,3 Months Adult,3 Month,2026-07-15,120.00,Statement,OK,240.00
+Garrett,Boursaw,,231-342-7696,114167,3 Months Adult,3 Month,2026-07-05,120.00,Statement,OK,290.00
+River,Schoening,,231-373-6367,114198,6 Month Student (14-18),6 Month,2026-07-05,190.00,Statement,OK,238.00
+Jessie,King,king.a.jessie@gmail.com,2316753013,114219,3 Months Adult,3 Month,2026-07-07,120.00,Statement,OK,290.00
+Heidi,Snell,heidijsnell@gmail.com,2318815995,115576,3 Months Adult,3 Month,2026-09-07,120.00,Statement,OK,360.00
+Derrick,Brown,deebrown88@gmail.com,2318811605,114186,1 Year Adult,Annual,2027-01-08,400.00,Statement,OK,450.00
+Amy,Salfai,ajsalfie@gmail.com,9894300377,114654,6 Month Adult,6 Month,2026-07-10,210.00,Statement,OK,272.00
+Trevor,Huffman,,810-333-3881,112205,1 Year Adult,Annual,2026-12-11,400.00,Statement,OK,403.00
+Devin,Strong,devinstrong205@gmail.com,313-605-9678,109763,3 Months Adult,3 Month,2026-08-08,120.00,Statement,OK,302.00
+Omar,Alkatie,alkatie.omar@gmail.com,248-212-1561,112377,Check Draft Adult,Monthly,2026-06-25,45.00,Statement,OK,394.00
+Blake,Buchanan,bcbuch@outlook.com,2318815324,110279,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,170.00
+Antonio,Vicente,antoniomvic11@gmail.com,850-368-4519,111839,3 Months Adult,3 Month,2026-07-16,120.00,Credit Card,OK,295.00
+Cayo,Vicente,cayovicente862@gmail.com,8503689709,115604,3 Months Adult,3 Month,2026-08-05,120.00,Statement,OK,191.00
+Eric,Ventarino,ericventarino@gmail.com,8102403332,505841,1 Month Adult,Monthly,2026-07-14,50.00,Statement,OK,438.00
+Scott,Meier,smeier@alumni.nd.edu,5868632849,505859,6 Month Adult,6 Month,2026-06-16,210.00,Statement,OK,210.00
+Martin,Leemaster,,231-881-2648,505883,6 Month Adult,6 Month,2026-06-21,210.00,Statement,OK,210.00
+Finn,Clarke,finn.clarke2009@gmail.com,231-254-1011,115671,6 Month Student (14-18),6 Month,2026-06-22,190.00,Statement,OK,196.00
+Mason,Weidlenhamer,maweidenhamer568@gmail.com,2316222842,115678,6 Month Adult,6 Month,2026-06-25,210.00,Statement,OK,240.00
+Kimberly,Biewer,biewer.ks@gmail.com,6179438128,115658,6 Month Adult,6 Month,2026-06-29,210.00,Statement,OK,210.00
+Tyla,Coates,tylabryncoates@gmail.com,231-340-1604,115641,6 Month Adult,6 Month,2026-07-06,210.00,Statement,OK,210.00
+Kasey,Goodwin,justkasey14@gmail.com,2318380409,115209,3 Months Adult,3 Month,2026-07-09,120.00,Statement,OK,240.00
+Ross,Whitmore,rwhitemore1492@gmail.com,231-759-9239,115219,6 Month Adult,6 Month,2026-07-11,210.00,Statement,OK,230.00
+Lane,Johnson,erictheman2009@yahoo.com,231-330-8105,115211,3 Month Student (14-18 yrs),3 Month,2026-07-13,110.00,Statement,OK,220.00
+Sarah,McGann,,,115375,3 Months Adult,3 Month,2026-07-14,120.00,Statement,OK,240.00
+Jeanna,Wright,,,115358,1 Year Senior Citizen 60 +,Annual,2027-05-04,320.00,Statement,OK,320.00
+Paul,Vermaire,,,115390,1 Yr Military,Annual,2027-01-15,320.00,Statement,OK,320.00
+Claire,Vermaire,,,115386,1 Year Adult,Annual,2027-01-15,400.00,Statement,OK,400.00
+Angela,Pifer,apifer1@gmail.com,8148074251,115409,3 Months Adult,3 Month,2026-07-17,120.00,Statement,OK,240.00
+Justin,Kapke,jrkapke@gmail.com,734-660-3411,114794,6 Month Adult,6 Month,2026-10-25,210.00,Statement,OK,330.00
+Kristen,Kapke,kikapke@gmail.com,734-686-9948,115389,6 Month Adult,6 Month,2026-10-28,210.00,Statement,OK,330.00
+Nathaniel,McCoy,than1127@aol.com,240-620-3432,115417,Check Draft Adult,Monthly,,45.00,Credit Card,OK,225.00
+Victoria,Moser,,,115382,6 Month Senior Citizen 60 +,6 Month,2026-11-25,170.00,Statement,OK,270.00
+Adam,Weiss,aweiss5871@yahoo.com,231-675-1350,115406,6 Mo Military,6 Month,2026-10-31,170.00,Statement,OK,273.00
+Brody,Lutz,bchaf.utz@gmail.com,231-838-7897,115402,6 Month Student (14-18),6 Month,2026-07-21,190.00,Statement,OK,190.00
+Dustin,Sanmiguel,sanmigueldustin@gmail.com,2314979073,115407,Check Draft Adult,Monthly,,45.00,Credit Card,OK,229.00
+Keygan,Jerrichow,,2318811507,115354,1 Month Student (14-18),Monthly,2026-07-11,45.00,Statement,OK,225.00
+Sarah,Hartline,sgbaker98@gmail.com,231-670-5511,115376,3 Months Adult,3 Month,2026-07-20,120.00,Credit Card,OK,255.00
+Anthony,Steiner,029steiner@gmail.com,231-420-9959,115492,1 Month Adult,Monthly,2026-06-20,50.00,Statement,OK,182.00
+Laila,Allard,lailaallard3@gmail.com,231-340-1850,115335,3 Month Student (14-18 yrs),3 Month,2026-09-10,110.00,Statement,OK,155.00
+Jace,Stradling,jstradley22@live.com,2313301182,115440,3 Month Student (14-18 yrs),3 Month,2026-09-10,110.00,Statement,OK,269.00
+Ashley,Nixon,ashleynixon20@gmail.com,810-874-3096,115423,6 Month Adult,6 Month,2026-11-03,210.00,Statement,OK,330.00
+Hailey,Veila,veilahailey76@gmail.com,9898207271,115431,Check Draft Adult,Monthly,,45.00,Credit Card,OK,225.00
+Brock,Yauney,brock.yauney@gmail.com,308-430-4775,115422,1 Year Adult,Annual,2027-02-02,400.00,Statement,OK,400.00
+Kaylah,Felker,obrienkaylah@yahoo.com,9062982581,114788,Check Draft Adult,Monthly,,45.00,Credit Card,OK,279.00
+Jessika,Shaler,jessicashaler@example.com,231-818-0778,115477,6 Month Adult,6 Month,2026-08-12,210.00,Statement,OK,210.00
+Jacob,Myers,jakeallanmyers@gmail.com,2316202333,115466,1 Year Adult,Annual,2027-02-13,400.00,Statement,OK,400.00
+JJ,Causey,johncauset1310@yahoo.com,2319399085,115479,Check Draft Adult,Monthly,,45.00,Credit Card,OK,225.00
+Jessica,Causey,jessicaausey817@yahoo.com,2318813356,115470,Check Draft Adult,Monthly,,45.00,Credit Card,OK,225.00
+Cy,Dellinger,,,115429,6 Mo Military,6 Month,2026-09-19,170.00,Statement,OK,210.00
+Olivia,Rollinger,livrollinger@gmail.com,248-765-5532,115498,1 Year Adult,Annual,2027-02-15,400.00,Statement,OK,400.00
+Sydney,Dillinger-Mewbourn,sydney.e.dillinger@gmail.com,9062817033,115480,1 Year Adult,Annual,2027-02-22,400.00,Statement,OK,400.00
+Joel,Mewbourn,,9063706612,115463,1 Year Adult,Annual,2027-02-19,400.00,Statement,OK,400.00
+Miles,Cotant-Harrington,n7a6@gmail.com,9892170376,114737,3 Month Student (14-18 yrs),3 Month,2026-06-20,100.00,Statement,OK,140.00
+Ryli,Davis,rylidamo525@gmail.com,231-340-5348,114732,Check Draft Adult,Monthly,,45.00,Credit Card,OK,180.00
+Henry,Johnson,henrywilliamjohnson6@gmail.com,231-268-9592,114734,3 Month Student (14-18 yrs),3 Month,2026-07-06,110.00,Statement,OK,155.00
+Thomas,Kucharczyk,thomaspk2006@gmail.com,231-340-2433,115635,Check Draft Adult,Monthly,,45.00,Credit Card,OK,180.00
+Mark,Wagner,,2313304299,115692,3 Months Senior Citizen 60+,3 Month,2026-06-29,100.00,Statement,OK,140.00
+Brad,Kolinski,bgzeel12@hotmail.com,2318385443,115691,3 Months Adult,3 Month,2026-07-06,120.00,Statement,OK,170.00
+Kaleb,Carter,,,115694,Check Draft Adult,Monthly,,45.00,Credit Card,OK,140.00
+Stephen,Younker,stephenyounker547@gmail.com,231-489-4850,115685,1 Month Student (14-18),Monthly,2026-06-21,45.00,Statement,OK,90.00
+Julia,Crandell,juliacrandell21@gmail.com,2316751295,505889,3 Month Student (14-18 yrs),3 Month,2026-07-25,110.00,Credit Card,OK,150.00
+Sookie,Ostrander,i_ampam@yahoo.com,231-838-8206,114707,3 Months Adult,3 Month,2026-08-07,120.00,Statement,OK,170.00
+Brady,Lyons,bradyjlyons@icloud.com,2313301997,115519,3 Month Student (14-18 yrs),3 Month,2026-06-18,100.00,Statement,OK,100.00
+Leif,Johnson,leifjohnson@example.com,231-330-9464,114744,3 Months Adult,3 Month,2026-06-19,120.00,Statement,OK,120.00
+Stephen,Mullen,stephenmullen70@gmail.com,8105220210,114747,3 Months Adult,3 Month,2026-06-21,120.00,Credit Card,OK,154.00
+Angela,Krecke,angelakrecke@gmail.com,2313501605,114777,3 Months Adult,3 Month,2026-06-24,120.00,Statement,OK,120.00
+Dean,Pratt,deanp502@yahoo.com,231-495-1939,115710,1 Year Adult,Annual,2027-03-26,400.00,Statement,OK,400.00
+Dylan,Collen,,,115709,3 Mo Military,3 Month,2026-06-29,100.00,Statement,OK,100.00
+Anthony,Oneil,,,115705,6 Mo Military,6 Month,2026-09-29,170.00,Statement,OK,170.00
+Madyson,Paffi,,,115701,1 Month Adult,Monthly,2026-07-09,50.00,Statement,OK,150.00
+Kevin,Weller,,,114758,3 Months Senior Citizen 60+,3 Month,2026-06-29,100.00,Statement,OK,155.00
+Tony,Beeler,tbeeler750@gmail.com,231-430-1750,114827,3 Months Adult,3 Month,2026-06-29,120.00,Statement,OK,120.00
+Aarav,Gandhi,aaravgandhi2008@icloud.com,231-387-4689,115516,3 Month Student (14-18 yrs),3 Month,2026-08-12,110.00,Credit Card,OK,163.00
+Justin,Thomas,thomas.justin900@gmail.com,231-330-3709,114756,Check Draft Adult,Monthly,,45.00,Credit Card,OK,135.00
+Natalia,Taylor,nataliaelenataylor@gmail.com,231-330-7040,114789,6 Month Adult,6 Month,2026-11-17,210.00,Statement,OK,210.00
+Terran,Costello,terran608@gmail.com,231-203-1874,114791,3 Month Student (14-18 yrs),3 Month,2026-07-06,110.00,Statement,OK,110.00
+Sam,Schoonmaker,stschoonmaker@gmail.com,2312031354,114792,3 Months Adult,3 Month,2026-07-07,120.00,Statement,OK,120.00
+Jack,Knight,jakfrost1264@yahoo.com,9893706444,115506,3 Months Adult,3 Month,2026-08-13,120.00,Statement,OK,170.00
+Ava,Weber,,231-290-1906,114754,3 Months Adult,3 Month,2026-08-14,120.00,Credit Card,OK,170.00
+Leif,VanHorn,laravanhorn@gmail.com,231-330-9956,114841,1 Year Student (14-18 yrs old),Annual,2027-04-15,360.00,Statement,OK,360.00
+Norm,Byers,normgbyers@gmail.com,231-330-3299,114859,3 Months Adult,3 Month,2026-08-18,120.00,Statement,OK,170.00
+Bethany,Newman,bethany.newman702@gmail.com,920-572-4772,114854,3 Months Adult,3 Month,2026-07-16,120.00,Statement,OK,120.00
+Judy,Fouch,judesweb1122@gmail.com,2318384616,114842,6 Month Senior Citizen 60 +,6 Month,2026-10-17,170.00,Statement,OK,170.00
+Maria,Villarreal,alejandra_v31@yahoo.com,2136449564,114843,3 Months Adult,3 Month,2026-07-17,120.00,Statement,OK,120.00
+Joseph,Porter,josephporterphd@gmail.com,3135903056,114858,3 Months Adult,3 Month,2026-07-17,120.00,Statement,OK,120.00
+Peyton,Voss,vosspeyton257@gmail.com,2313603644,505844,1 Month Adult,Monthly,2026-06-20,50.00,Statement,OK,88.00
+Eva,Sommerfeldt,eva-sommerfeldt.06@gmail.com,2314970417,505850,3 Months Adult,3 Month,2026-07-17,120.00,Statement,OK,120.00
+Michael,Bush,bush.mike49@gmail.com,904-909-0752,114848,3 Months Adult,3 Month,2026-07-20,120.00,Statement,OK,120.00
+Reese,Hoffman,,2312034483,114823,1 Month Student (14-18),Monthly,2026-07-01,45.00,Statement,OK,90.00
+Easton,Brecheisen,eastonbrech@hotmail.com,231-310-7497,114752,3 Month Student (14-18 yrs),3 Month,2026-07-23,110.00,Statement,OK,110.00
+Roland,Werth,melaniewerth@gmail.com,2316221745,114838,3 Month Student (14-18 yrs),3 Month,2026-07-24,110.00,Statement,OK,110.00
+David,Bolin,davidcurtisbolin@gmail.com,2315502020,114831,3 Month Student (14-18 yrs),3 Month,2026-07-24,110.00,Statement,OK,110.00
+Noah,Bacon,bacon179@gmail.com,231-866-1996,115464,1 Month Adult,Monthly,2026-07-07,50.00,Statement,OK,100.00
+Michael,Malton,14.malton@yahoo.com,989-306-8863,115449,3 Months Adult,3 Month,2026-08-29,120.00,Statement,OK,170.00
+Seth,March,sethjmarch@gmail.com,2313736849,115532,3 Months Adult,3 Month,2026-08-01,120.00,Statement,OK,120.00
+Marshall,Goldsborough,,5597283301,115540,3 Months Adult,3 Month,2026-08-02,120.00,Statement,OK,120.00
+Finnegan,Fauser,,231-445-1999,115524,1 Month Student (14-18),Monthly,2026-07-03,45.00,Statement,OK,130.50
+Ryan,Dentley,ryanbentley39@gmail.com,231-838-9792,115522,1 Year Adult,Annual,2027-05-03,400.00,Statement,OK,400.00
+Isabelle,Stoltz,izzy.stoltz12@gmail.com,989-464-6743,115521,1 Month Adult,Monthly,2026-07-07,50.00,Statement,OK,100.00
+Henry,Snabes,hanksnabes41@gmail.com,248-520-4283,114808,3 Month Student (14-18 yrs),3 Month,2026-08-04,110.00,Statement,OK,113.00
+Vincent,Ricketts,rickettsvincent@gmail.com,414-331-9788,115222,Social District Svc 1 mo,Social District,2026-07-05,40.00,Statement,OK,80.00
+James,Allen,jamespallen360@outlook.com,9077828974,115511,3 Mo Military,3 Month,2026-08-06,100.00,Statement,OK,100.00
+Sheri,Kowalski,sherikowalski@hotmail.com,313-485-6666,115544,3 Months Adult,3 Month,2026-08-08,120.00,Statement,OK,120.00
+Kasen,Hollingsworth,kjhinhs@gmail.com,231-881-4201,115548,3 Months Adult,3 Month,2026-08-08,120.00,Statement,OK,120.00
+Ashley,Evans,avans1988@gmail.com,2318789469,115555,Check Draft Adult,Monthly,2026-07-08,45.00,Credit Card,OK,95.00
+Kim,Wineman,kimwineman@yahoo.com,2486721050,115559,3 Months Senior Citizen 60+,3 Month,2026-08-09,100.00,Statement,OK,100.00
+Amelia,Isacksen,ameliaiscksen0@gmail.com,269-569-3894,115257,3 Months Adult,3 Month,2026-08-10,120.00,Statement,OK,120.00
+Elle,Storoe,ellelarae15@gmail.com,352-226-2955,114819,6 Month Adult,6 Month,2026-11-11,210.00,Statement,OK,210.00
+Caleb,Applegate,,,114802,3 Mo Military,3 Month,2026-08-12,100.00,Statement,OK,100.00
+Kendall,Guy,,6165580627,114820,1 Month Adult,Monthly,2026-07-12,50.00,Statement,OK,100.00
+Kathryn,Heiny,kathryn.heiny@gmail.com,260-310-0593,115508,3 Month Student (14-18 yrs),3 Month,2026-08-12,110.00,Statement,OK,110.00
+Matt,West,mattwest642@gmail.com,724-612-8560,115575,3 Months Adult,3 Month,2026-08-14,120.00,Statement,OK,120.00
+Marco,Arseth,marcoarseth@gmail.com,2484108701,115600,1 Year Adult,Annual,2027-05-15,400.00,Statement,OK,400.00
+Shane,Izzard,shizzard10@gmail.com,2318386053,115596,3 Months Adult,3 Month,2026-08-15,120.00,Statement,OK,120.00
+Andrew,Glass,glassaj190@gmail.com,231939900,115578,3 Month Student (14-18 yrs),3 Month,2026-08-16,110.00,Statement,OK,110.00
+Kurtis,Graham,,2314001177,115574,1 Month Adult,Monthly,2026-06-16,50.00,Statement,OK,50.00
+Tyler,McGuirk,,,115570,1 Month Adult,Monthly,2026-06-17,50.00,Statement,OK,50.00
+Bill,Goshorn,billsal4@gmail.com,2489215818,115565,1 Month Senior Citizen 60+,Monthly,2026-06-17,40.00,Statement,OK,40.00
+Sally,Goshorn,billdsl4@gmail.com,231 881 0681,115561,1 Month Senior Citizen 60+,Monthly,2026-06-17,40.00,Statement,OK,40.00
+Alexandra,Ulmer,alexis.e.vinner@gmail.com,2489241716,115573,3 Months Adult,3 Month,2026-08-17,120.00,Statement,OK,120.00
+Max,Kittleson,maxwellkittleson@gmail.com,502-727-3908,115591,1 Month Adult,Monthly,2026-06-17,50.00,Statement,OK,50.00
+Sakura,Springborn,sakuraspringborn@gmail.com,231-881-2475,115587,1 Month Student (14-18),Monthly,2026-06-17,45.00,Statement,OK,45.00
+Gonzalo,Cech Bello,gonzalo@example.com,311-612-9122,115599,3 Months Adult,3 Month,2026-08-17,120.00,Statement,OK,120.00
+Taylor,Dickinson,tdickinson07@icloud.com,2318387714,115582,3 Months Adult,3 Month,2026-08-18,120.00,Statement,OK,120.00
+Caden,Risbrudt,risbrudtcaden15@gmail.com,763-334-0292,115586,3 Months Adult,3 Month,2026-08-18,120.00,Statement,OK,120.00
+Garrett,Brown,garrettbrown227@gmail.com,3144969676,115608,3 Months Adult,3 Month,2026-08-20,120.00,Statement,OK,120.00
+Kaitie,Rasch,raschkaitie24@gmail.com,231 373 3440,115611,Social District Svc 1 mo,Social District,2026-06-21,40.00,Statement,OK,40.00
+Abby,Freeman,abbypatriuafreeman90@gmail.com,9892001888,115607,1 Month Adult,Monthly,2026-06-21,50.00,Statement,OK,50.00
+Brooklyn,Burkle,,2318387237,115601,1 Month Student (14-18),Monthly,2026-06-22,45.00,Statement,OK,45.00
+Mindy,Grosse,m_grosse@gmail.com,2318387237,115615,1 Month Adult,Monthly,2026-06-22,50.00,Statement,OK,50.00
+Sam,Carmoney,samcarmoney@gmail.com,9704450303,115602,3 Months Adult,3 Month,2026-08-22,120.00,Statement,OK,120.00
+Allie,Richmond,allie.jennie.richmond@gmail.com,2318387408,115605,3 Months Adult,3 Month,2026-08-22,120.00,Statement,OK,120.00
+Nigel,Clarke,clarkenigel76@gmail.com,8763880079,115616,Social District Service 6 mo,Social District,2026-11-22,168.00,Statement,OK,168.00
+Nicholas,Wreschisley,wreschinslyn@gmail.com,2693506785,115606,1 Month Adult,Monthly,2026-06-23,50.00,Statement,OK,50.00
+Luscia,Melby,,404-216-9495,115613,3 Months Adult,3 Month,2026-08-25,120.00,Statement,OK,120.00
+Gina,Engel,,,115617,3 Months Adult,3 Month,2026-08-25,120.00,Statement,OK,120.00
+Jim,Lewis,jal6000@yahoo.com,734-883-4639,115593,6 Month Senior Citizen 60 +,6 Month,2026-11-25,170.00,Statement,OK,170.00
+Zak,Kasuske,zkasuske@gmail.com,231-838-9112,115633,1 Month Adult,Monthly,2026-06-25,50.00,Statement,OK,50.00
+Robert,Rickard,robertrickard16@yahoo.com,231-445-2174,115590,Moeller Aerospace 1 mo,Other,2026-06-25,40.00,Statement,OK,40.00
+Isaiah,Smth,isaiahjothorn@gmail.com,517-614-9528,115510,3 Months Adult,3 Month,2026-08-25,120.00,Statement,OK,120.00
+Ryan,Merritt,ryanlovesfishing23@gmail.com,248-634-5217,115502,3 Months Adult,3 Month,2026-08-25,120.00,Statement,OK,120.00
+Jonathan,Curlee,,,115513,1 Month Adult,Monthly,2026-06-26,50.00,Statement,OK,50.00
+Kelly,Green,kmgreen558@gmail.com,2313732987,115505,6 Month Adult,6 Month,2026-11-27,210.00,Statement,OK,0.00
+Erin,Blackhall,erinkatie24@gmail.com,5616794938,115224,1 Month Adult,Monthly,2026-06-26,50.00,Statement,OK,50.00
+james,Barnardt,jamesbarnardt@gmail.com,5617149724,115624,1 Month Adult,Monthly,2026-06-26,50.00,Statement,OK,53.00
+Amelia,Kasuslce,ameliakasuske49@gmail.com,2315903548,115623,1 Month Adult,Monthly,2026-06-26,50.00,Statement,OK,50.00
+Michael,Zapantis,zapantismitley@yahoo.com,2315506692,115223,Social District Svc 1 mo,Social District,2026-06-26,40.00,Statement,OK,40.00
+Carson,Brey,carsonbrey@icloud.com,231 347 6008,115621,1 Month Student (14-18),Monthly,2026-06-26,45.00,Statement,OK,45.00
+Rider,Bartel,riderbartel1@gmail.com,2313734871,115638,1 Month Adult,Monthly,2026-06-27,50.00,Statement,OK,50.00
+Gabe,Dunkel,gabedunkel11@gmail.com,2318385210,115639,3 Month Student (14-18 yrs),3 Month,2026-08-28,110.00,Statement,OK,110.00
+Netta,Cassuto,cassutnetta@gmail.com,4049184915,115640,3 Mo Military,3 Month,2026-08-28,100.00,Statement,OK,100.00
+Eleanor,Livingston,elanorliving17@gmail.com,6168269186,115226,3 Months Adult,3 Month,2026-08-29,120.00,Credit Card,OK,120.00
+Clinton,Raleigh,clinton.raleigh@gmail.com,2313736315,115235,3 Month Student (14-18 yrs),3 Month,2026-08-29,110.00,Statement,OK,110.00
+Nathaniel,Schultz,schultz.nws@gmail.com,2489901114,115637,1 Month Adult,Monthly,2026-06-29,50.00,Statement,OK,50.00
+David,Yuhas,cooperyuhas@gmail.com,4123151472,115634,1 Month Adult,Monthly,2026-06-29,50.00,Statement,OK,50.00
+Wayne,Crawford,,,115225,1 Mo Military,Monthly,2026-06-30,40.00,Statement,OK,40.00
+Jillian,Cox,,,115625,1 Month Adult,Monthly,2026-06-30,50.00,Statement,OK,50.00
+Warden,Nelson,,,115629,3 Months Senior Citizen 60+,3 Month,2026-08-31,100.00,Statement,OK,100.00
+Chris,Cooper,chriscooper287@yahoo.com,616-437-4539,115622,1 Month Adult,Monthly,2026-06-30,50.00,Statement,OK,50.00
+Caden,Herscher,herschercaden@gmail.com,231 373 4188,115261,Social District Svc 1 mo,Social District,2026-06-30,40.00,Statement,OK,40.00
+Benjamin,Dhustovich,bdtust@gmail.com,2695690935,115253,3 Months Adult,3 Month,2026-08-31,120.00,Statement,OK,120.00
+David,Carroll,dfc092@gmail.com,2316767240,115264,1 Mo Military,Monthly,2026-06-30,40.00,Statement,OK,40.00
+Ann,Young,,,115266,3 Months Senior Citizen 60+,3 Month,2026-09-01,100.00,Statement,OK,100.00
+Domanic,Ford,,,115272,1 Month Student (14-18),Monthly,2026-07-01,45.00,Statement,OK,45.00
+Matthew,Thatcher,matt@walloonwatershed.com,414-305-7445,115322,1 Month Adult,Monthly,2026-07-01,50.00,Statement,OK,50.00
+Richard,Anderson,,,115275,3 Months Senior Citizen 60+,3 Month,2026-09-02,100.00,Statement,OK,100.00
+David,Farley,,,115250,3 Months Adult,3 Month,2026-09-03,120.00,Statement,OK,120.00
+Alexander,Maas,alexnmaas7@gmail.com,5864337366,115244,1 Month Adult,Monthly,2026-07-03,50.00,Statement,OK,50.00
+Abatu,Stemple,avatustemple@icloud.com,616-822-3758,115246,3 Month Student (14-18 yrs),3 Month,2026-09-03,110.00,Statement,OK,110.00
+Erika,Ketchum,eik4912@gmail.com,616-902-1380,115245,3 Months Adult,3 Month,2026-09-04,120.00,Statement,OK,120.00
+Thomas,Naab,tomnaab@comcast.net,7348126816,115254,3 Months Senior Citizen 60+,3 Month,2026-09-05,100.00,Credit Card,OK,100.00
+Jaden,Taylor,jaden.taylor770@gmail.com,5177989137,115247,1 Month Adult,Monthly,2026-07-06,50.00,Credit Card,OK,55.00
+Ella,Bowen,ellabowenart@gmail.com,616 227 6903,115328,1 Month Adult,Monthly,2026-07-07,50.00,Statement,OK,50.00
+Isabelle,Huhn,isabellehuhn@icloud.com,231-881-0001,115336,1 Month Adult,Monthly,2026-07-07,50.00,Statement,OK,50.00
+Remy,Santos,remyjr9@aol.com,239-370-2692,115327,Check Draft Adult,Monthly,2026-07-07,45.00,Credit Card,OK,54.00
+Fisher,Phillips,,,115281,1 Month Student (14-18),Monthly,2026-07-08,45.00,Statement,OK,45.00
+Stone,Calnen,,,115289,1 Month Adult,Monthly,2026-07-08,50.00,Statement,OK,50.00
+Seanna,Stine,ebonyseanna1618@gmail.com,906-284-1711,115284,3 Months Adult,3 Month,2026-09-08,120.00,Statement,OK,120.00
+Greg,McCormick,,,115299,3 Months Adult,3 Month,2026-09-09,120.00,Statement,OK,120.00
+Ellen,Minoletti,,,115295,3 Months Senior Citizen 60+,3 Month,2026-09-09,100.00,Statement,OK,100.00
+Erin,Stack,,6784292263,115282,3 Months Adult,3 Month,2026-09-09,120.00,Statement,OK,120.00
+Sadie,Liddy,sadie.liddy@hotmail.com,2318388269,115290,1 Month Adult,Monthly,2026-07-09,50.00,Statement,OK,50.00
+Jeff,Heuerman,,,115340,3 Months Adult,3 Month,2026-09-10,120.00,Statement,OK,120.00
+Diana,Heari,diana.b.hearit@gmail.com,269-806-7540,115338,3 Months Senior Citizen 60+,3 Month,2026-09-10,100.00,Statement,OK,100.00
+Colton,Sierabski,sierabski@gmail.com,231-881-1410,115330,1 Month Adult,Monthly,2026-07-10,50.00,Statement,OK,50.00
+Jackson,Palk,,,115326,1 Month Student (14-18),Monthly,2026-07-11,45.00,Credit Card,OK,45.00
+Jill,Maddox,,,115321,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,50.00
+Andrew,Cheff,drewcheff06@gmail.com,313-439-6214,115333,1 Month Adult,Monthly,2026-07-11,50.00,Statement,OK,50.00
+Warren,Rohmfeld,rohmfeldw@gmail.com,7607745338,115251,3 Months Senior Citizen 60+,3 Month,2026-09-12,100.00,Statement,OK,100.00
+Brooklyn,Krainock,brookiekrairnock@gmail.com,5179201802,115252,1 Month Adult,Monthly,2026-07-13,50.00,Statement,OK,50.00
+Michael,Heflin,,,114930,3 Months Adult,3 Month,2026-09-14,120.00,Statement,OK,120.00
+Griffin,Felski,,,114937,3 Months Adult,3 Month,2026-09-14,120.00,Credit Card,OK,120.00
+Dayton,Oliver,daytonoliver3@gmail.com,6183108537,115313,1 Month Adult,Monthly,2026-07-15,50.00,Statement,OK,50.00
