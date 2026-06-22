@@ -554,6 +554,8 @@
       box-shadow: 0 0 0 3px rgba(201,152,45,0.1);
     }
     textarea.form-field { resize: vertical; min-height: 110px; }
+    select.form-field.is-placeholder { color: var(--dim); }
+    select.form-field option { color: var(--cream); background: var(--bg3); }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 
     /* ─── FOOTER ─── */
@@ -975,30 +977,30 @@
         <form id="guestForm" action="https://formspree.io/f/mgojepga" method="POST" onsubmit="handleForm(event)">
           <div class="form-row">
             <div class="form-group">
-              <label class="form-label">First Name</label>
-              <input class="form-field" name="First Name" type="text" placeholder="Jane" required />
+              <label class="form-label" for="firstName">First Name</label>
+              <input class="form-field" id="firstName" name="First Name" type="text" placeholder="Jane" required />
             </div>
             <div class="form-group">
-              <label class="form-label">Last Name</label>
-              <input class="form-field" name="Last Name" type="text" placeholder="Smith" required />
+              <label class="form-label" for="lastName">Last Name</label>
+              <input class="form-field" id="lastName" name="Last Name" type="text" placeholder="Smith" required />
             </div>
           </div>
           <div class="form-group">
-            <label class="form-label">Email</label>
-            <input class="form-field" name="email" type="email" placeholder="you@example.com" required />
+            <label class="form-label" for="email">Email</label>
+            <input class="form-field" id="email" name="email" type="email" placeholder="you@example.com" required />
           </div>
           <div class="form-group">
-            <label class="form-label">Reason</label>
-            <select class="form-field" name="Reason" style="color:var(--dim)">
-              <option value="">Select one…</option>
-              <option>Guest suggestion</option>
-              <option>Sponsorship / Partnership</option>
-              <option>General inquiry</option>
+            <label class="form-label" for="reason">Reason</label>
+            <select class="form-field is-placeholder" id="reason" name="Reason" required>
+              <option value="" disabled selected>Select one…</option>
+              <option value="Guest suggestion">Guest suggestion</option>
+              <option value="Sponsorship / Partnership">Sponsorship / Partnership</option>
+              <option value="General inquiry">General inquiry</option>
             </select>
           </div>
           <div class="form-group">
-            <label class="form-label">Message</label>
-            <textarea class="form-field" name="Message" placeholder="Tell us who you are or who you'd like us to have on…"></textarea>
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-field" id="message" name="Message" placeholder="Tell us who you are or who you'd like us to have on…" required></textarea>
           </div>
           <button type="submit" class="btn btn-gold" id="guestBtn" style="width:100%;justify-content:center;padding:1rem;">Send It</button>
           <p id="form-msg" style="display:none;margin-top:0.9rem;font-size:0.8rem;text-align:center;"></p>
@@ -1214,6 +1216,14 @@
     // Dynamic year
     const yrEl = document.getElementById('yr');
     if (yrEl) yrEl.textContent = new Date().getFullYear();
+
+    // Reason dropdown: drop placeholder styling once a real option is chosen
+    const reasonSel = document.getElementById('reason');
+    if (reasonSel) {
+      reasonSel.addEventListener('change', () => {
+        reasonSel.classList.toggle('is-placeholder', reasonSel.value === '');
+      });
+    }
 
     // Contact form -> Formspree (no page reload)
     async function handleForm(e) {
